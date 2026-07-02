@@ -21,18 +21,18 @@ title_separator          : "|"
 subtitle                 : # "subtitle"
 name                     : # "name"
 description              : "Bricklaying"
-url                      : "https://don-gana-d.github.io"
+url                      : "https://scruffy-potato.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "don-gana-d/comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "scruffy-potato/comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/Dog_Paw_Print.png"
+logo                     : "/assets/images/main_icon.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : "don-gana-d" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "scruffy-potato" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -124,7 +124,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/don-gana-d"
+      # url: "https://github.com/scruffy-potato"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -140,7 +140,7 @@ footer:
       # url:
     - label: "Github"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/don-gana-d"
+      url: "https://github.com/scruffy-potato"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
