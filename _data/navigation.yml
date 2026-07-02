@@ -10,7 +10,7 @@ main:
     url: /tags/
 
 docs:
-  - title: "BRICKS - GAME DEV"
+  - title: "SEEDLING BED - GAME DEV"
     children:
       - title: "Unity"
         url: /categories/Unity
@@ -33,7 +33,7 @@ docs:
       - title: "Setup"
         url: /categories/Setup
         category: "Setup"
-  - title: "BRICKS - WEB DEV"
+  - title: "SEEDLING BED - WEB DEV"
     children:
       - title: "HTML"
         url: /categories/HTML
