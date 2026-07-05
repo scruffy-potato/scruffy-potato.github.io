@@ -62,6 +62,14 @@ docs:
       - title: "DataStructure"
         url: /categories/DataStructure
         category: "DataStructure"
+  - title: "SEEDLING BED - ANIMATION DEV"
+    children:
+      - title: "Photoshop"
+        url: /categories/Photoshop
+        category: "Photoshop"
+      - title: "Illustrator"
+        url: /categories/Illustrator
+        category: "Illustrator"
   - title: "SCRIBBLES"
     children:
       - title: "Note"
