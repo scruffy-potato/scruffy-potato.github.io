@@ -28,7 +28,7 @@ excerpt: "프리미어의 기초적인 형태"
 # 📌 언링크
 {: .notice}
 
-<img src="/img/Premiere/premiere-basic/import.png"/>
+<img src="/img/Premiere/premiere-basic/unlink.png"/>
 
 
 
