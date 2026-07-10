@@ -70,6 +70,9 @@ docs:
       - title: "Illustrator"
         url: /categories/Illustrator
         category: "Illustrator"
+      - title: "Premiere"
+        url: /categories/Premiere
+        category: "Premiere"
   - title: "SCRIBBLES"
     children:
       - title: "Note"

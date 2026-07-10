@@ -9,7 +9,7 @@ categories: Photoshop
 
 
 
-# 📌 test title
+# 📌 Background
 {: .notice}
 
 <span class="ul-1"><span class="color-keyword">test</span> : test</span>
@@ -20,7 +20,7 @@ categories: Photoshop
 
 <span class="ul-1"><span class="color-keyword">test</span> : test</span>
 
-# 📌 test title
+# 📌 Feather
 {: .notice}
 
 <span class="ul-1"><span class="color-keyword">test</span> : test</span>
