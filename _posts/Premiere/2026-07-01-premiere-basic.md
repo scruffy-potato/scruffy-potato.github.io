@@ -9,7 +9,7 @@ excerpt: "프리미어의 기초적인 형태"
 
 
 
-# 📌 윈도우 준비
+# 📌 편집 창 준비
 {: .notice}
 
 <img src="/img/Premiere/premiere-basic/editing.png"/>
@@ -25,7 +25,7 @@ excerpt: "프리미어의 기초적인 형태"
 
 
 
-# 📌 언링크
+# 📌 비디오에서 오디오 분리
 {: .notice}
 
 <img src="/img/Premiere/premiere-basic/unlink.png"/>
@@ -33,13 +33,19 @@ excerpt: "프리미어의 기초적인 형태"
 
 
 
-# 📌 Feather
+# 📌 프레임
 {: .notice}
 
-<span class="ul-1"><span class="color-keyword">test</span> : test</span>
+<img src="/img/Premiere/premiere-basic/frame.png"/>
 
-<span class="ul-1"><span class="color-keyword">test</span> : test</span>
+<span class="ul-1"> <span class="color-keyword">Home</span> : 타임라인의 첫 프레임으로 이동 </span>
 
-<span class="ul-2"><span class="color-variable">test</span> : test</span>
+<span class="ul-1"> <span class="color-keyword">End</span> : 타임라인의 마지막 프레임으로 이동 </span>
 
-<span class="ul-1"><span class="color-keyword">test</span> : test</span>
+<span class="ul-1"> <span class="color-keyword">⬆</span> : 이전 프레임으로 클립 단위로 이동 </span>
+
+<span class="ul-1"> <span class="color-keyword">⬇</span> : 다음 프레임으로 클립 단위로 이동 </span>
+
+<span class="ul-1"> <span class="color-keyword">⬅</span> : 이전 프레임으로 이동 </span>
+
+<span class="ul-1"> <span class="color-keyword">➡</span> : 다음 프레임으로 이동 </span>
