@@ -14,7 +14,7 @@ categories: Premiere
 
 <span class="ul-1"> <span class="color-keyword">Space</span> : 재생 / 일시정지 </span>
 
-<span class="ul-1"> <span class="color-keyword">\</span> : 타임라인 전체 보기 </span>
+<span class="ul-1"> <span class="color-keyword"><code>\</code></span> : 타임라인 전체 보기 </span>
 
 <span class="ul-1"> <span class="color-keyword">V</span> : 선택 툴 </span>
 

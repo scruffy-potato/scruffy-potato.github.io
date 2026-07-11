@@ -1,8 +1,8 @@
 ---
-title: "프리미어 기초"
+title: "프리미어 기초 편집"
 categories: Premiere
 # tag: []
-excerpt: "프리미어의 기초적인 형태"
+# excerpt: ""
 ---
 
 
