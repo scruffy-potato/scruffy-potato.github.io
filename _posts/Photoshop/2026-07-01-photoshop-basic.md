@@ -12,21 +12,44 @@ categories: Photoshop
 # 📌 Background
 {: .notice}
 
-<span class="ul-1"><span class="color-keyword">test</span> : test</span>
+<img src="/img/Photoshop/background.png"/>
 
-<span class="ul-1"><span class="color-keyword">test</span> : test</span>
 
-<span class="ul-2"><span class="color-variable">test</span> : test</span>
 
-<span class="ul-1"><span class="color-keyword">test</span> : test</span>
 
 # 📌 Feather
 {: .notice}
 
-<span class="ul-1"><span class="color-keyword">test</span> : test</span>
+<img src="/img/Photoshop/feather.png"/>
 
-<span class="ul-1"><span class="color-keyword">test</span> : test</span>
 
-<span class="ul-2"><span class="color-variable">test</span> : test</span>
 
-<span class="ul-1"><span class="color-keyword">test</span> : test</span>
+
+# 📌 레이어 순서와 스마트 오브젝트
+{: .notice}
+
+<img src="/img/Photoshop/smart-obejct-and-layer-order.png"/>
+
+
+
+
+# 📌 색상 변환
+{: .notice}
+
+<img src="/img/Photoshop/hue.png"/>
+
+
+
+
+# 📌 특정 부분(컬러) 제외 흑백화
+{: .notice}
+
+<img src="/img/Photoshop/black-and-white.png"/>
+
+
+
+
+# 📌 머지
+{: .notice}
+
+<img src="/img/Photoshop/merge.png"/>
