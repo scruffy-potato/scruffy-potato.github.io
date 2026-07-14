@@ -42,6 +42,8 @@ categories: Premiere
 
 <span class="ul-1"> <span class="color-keyword">End</span> : 타임라인의 마지막 프레임으로 이동 </span>
 
+<img src="/img/Premiere/premiere-basic/frame-up-down.png"/>
+
 <span class="ul-1"> <span class="color-keyword">⬆</span> : 이전 프레임으로 클립 단위로 이동 </span>
 
 <span class="ul-1"> <span class="color-keyword">⬇</span> : 다음 프레임으로 클립 단위로 이동 </span>
@@ -85,3 +87,39 @@ categories: Premiere
 {: .notice}
 
 <img src="/img/Premiere/premiere-basic/cross-dissolve.png"/>
+
+
+
+
+# 📌 Adjustment Layer
+{: .notice}
+
+<img src="/img/Premiere/premiere-basic/adjustment-layer.png"/>
+
+
+
+
+# 📌 오디오 페이드 인, 아웃
+{: .notice}
+
+<img src="/img/Premiere/premiere-basic/sound-fade-in-out.png"/>
+
+
+
+
+# 📌 덕킹
+{: .notice}
+
+<img src="/img/Premiere/premiere-basic/ducking.png"/>
+
+
+
+
+# 📌 대본 자동 생성과 자막
+{: .notice}
+
+<img src="/img/Premiere/premiere-basic/transcript.png"/>
+
+<img src="/img/Premiere/premiere-basic/create-caption.png"/>
+
+<img src="/img/Premiere/premiere-basic/caption.png"/>
