@@ -53,3 +53,35 @@ categories: Photoshop
 {: .notice}
 
 <img src="/img/Photoshop/merge.png"/>
+
+
+
+
+# 📌 레이어 마스크
+{: .notice}
+
+<img src="/img/Photoshop/layer-mask.png"/>
+
+
+
+
+# 📌 클리핑 마스크
+{: .notice}
+
+<img src="/img/Photoshop/clipping-mask.png"/>
+
+
+
+
+# 📌 그룹, 상하반전
+{: .notice}
+
+<img src="/img/Photoshop/group-vertical-reverse.png"/>
+
+
+
+
+# 📌 리파인엣지
+{: .notice}
+
+<img src="/img/Photoshop/refine-edge.png"/>
