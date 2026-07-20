@@ -73,6 +73,9 @@ docs:
       - title: "Premiere"
         url: /categories/Premiere
         category: "Premiere"
+      - title: "AfterEffects"
+        url: /categories/AfterEffects
+        category: "AfterEffects"
   - title: "SCRIBBLES"
     children:
       - title: "Note"
