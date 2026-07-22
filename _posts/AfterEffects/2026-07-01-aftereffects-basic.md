@@ -29,3 +29,11 @@ categories: AfterEffects
 {: .notice}
 
 <img src="/img/AfterEffects/easy-ease.png"/>
+
+
+
+
+# 📌 축 분리, 탄젠트
+{: .notice}
+
+<img src="/img/AfterEffects/tangent.png"/>
