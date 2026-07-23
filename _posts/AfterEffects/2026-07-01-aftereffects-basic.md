@@ -37,3 +37,11 @@ categories: AfterEffects
 {: .notice}
 
 <img src="/img/AfterEffects/tangent.png"/>
+
+
+
+
+# 📌 텍스트 애니메이션, 마스크
+{: .notice}
+
+<img src="/img/AfterEffects/text-animation.png"/>
