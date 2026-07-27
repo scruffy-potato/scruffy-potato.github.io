@@ -1,5 +1,5 @@
 ---
-title: "뷰포트 컨트롤"
+title: "Basic Control"
 categories: Blender
 excerpt: "카메라, 3D 커서, Undo, Redo"
 ---
@@ -21,17 +21,17 @@ excerpt: "카메라, 3D 커서, Undo, Redo"
 
 • <span class="color-keyword">줌 인/아웃</span> : Ctrl + MMB + 마우스 상하 이동
 
-• <span class="color-keyword">오른쪽 측면(X에서 바라보기)</span><span class="color-comment"> Right Orthographic </span> : Numpad 3 <span class="color-comment"> 텐키리스 Ctrl + Shift + L </span>
+• <span class="color-keyword">Right Orthographic(X에서 바라보기)</span> : Numpad 3 <span class="color-comment"> 텐키리스 Ctrl + Shift + L </span>
 
-• <span class="color-keyword">왼쪽 측면(-X에서 바라보기)</span><span class="color-comment"> Left Orthographic </span> : Ctrl + Numpad 3 <span class="color-comment"> 텐키리스 Ctrl + Shift + P </span>
+• <span class="color-keyword">Left Orthographic(-X에서 바라보기)</span> : Ctrl + Numpad 3 <span class="color-comment"> 텐키리스 Ctrl + Shift + P </span>
 
-• <span class="color-keyword">후면(Y에서 바라보기)</span><span class="color-comment"> Back Orthographic </span> : Ctrl + Numpad 1 <span class="color-comment"> 텐키리스 Ctrl + Shift + ; </span>
+• <span class="color-keyword">Back Orthographic(Y에서 바라보기)</span> : Ctrl + Numpad 1 <span class="color-comment"> 텐키리스 Ctrl + Shift + ; </span>
 
-• <span class="color-keyword">정면(-Y에서 바라보기)</span><span class="color-comment"> Front Orthographic </span> : Numpad 1 <span class="color-comment"> 텐키리스 Ctrl + Shift + [ </span>
+• <span class="color-keyword">Front Orthographic(-Y에서 바라보기)</span> : Numpad 1 <span class="color-comment"> 텐키리스 Ctrl + Shift + [ </span>
 
-• <span class="color-keyword">상단(Z에서 바라보기)</span><span class="color-comment"> Top Orthographic </span> : Numpad 7 <span class="color-comment"> 텐키리스 Ctrl + Shift + " </span>
+• <span class="color-keyword">Top Orthographic(Z에서 바라보기)</span> : Numpad 7 <span class="color-comment"> 텐키리스 Ctrl + Shift + " </span>
 
-• <span class="color-keyword">하단(-Z에서 바라보기)</span><span class="color-comment"> Bottom Orthographic </span> : Ctrl + Numpad 7 <span class="color-comment"> 텐키리스 Ctrl + Shift + ] </span>
+• <span class="color-keyword">Bottom Orthographic(-Z에서 바라보기)</span> : Ctrl + Numpad 7 <span class="color-comment"> 텐키리스 Ctrl + Shift + ] </span>
 
 
 

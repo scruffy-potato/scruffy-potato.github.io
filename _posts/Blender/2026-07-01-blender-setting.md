@@ -1,5 +1,5 @@
 ---
-title: "블렌더 세팅"
+title: "Blender Set"
 categories: Blender
 # excerpt: ""
 ---
