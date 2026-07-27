@@ -21,17 +21,17 @@ excerpt: "카메라, 3D 커서, Undo, Redo"
 
 • <span class="color-keyword">줌 인/아웃</span> : Ctrl + MMB + 마우스 상하 이동
 
-• <span class="color-keyword">Right Orthographic(X에서 바라보기)</span> : Numpad 3 <span class="color-comment"> 텐키리스 Ctrl + Shift + L </span>
+• <span class="color-keyword">Right Orthographic(X에서 바라보기)</span> : Numpad 3 <span class="color-comment"> 텐키리스 Ctrl + Shift + Alt + Q </span>
 
-• <span class="color-keyword">Left Orthographic(-X에서 바라보기)</span> : Ctrl + Numpad 3 <span class="color-comment"> 텐키리스 Ctrl + Shift + P </span>
+• <span class="color-keyword">Back Orthographic(Y에서 바라보기)</span> : Ctrl + Numpad 1 <span class="color-comment"> 텐키리스 Ctrl + Shift + Alt + W </span>
 
-• <span class="color-keyword">Back Orthographic(Y에서 바라보기)</span> : Ctrl + Numpad 1 <span class="color-comment"> 텐키리스 Ctrl + Shift + ; </span>
+• <span class="color-keyword">Top Orthographic(Z에서 바라보기)</span> : Numpad 7 <span class="color-comment"> 텐키리스 Ctrl + Shift + Alt + E </span>
 
-• <span class="color-keyword">Front Orthographic(-Y에서 바라보기)</span> : Numpad 1 <span class="color-comment"> 텐키리스 Ctrl + Shift + [ </span>
+• <span class="color-keyword">Left Orthographic(-X에서 바라보기)</span> : Ctrl + Numpad 3 <span class="color-comment"> 텐키리스 Ctrl + Shift + Alt + 1 </span>
 
-• <span class="color-keyword">Top Orthographic(Z에서 바라보기)</span> : Numpad 7 <span class="color-comment"> 텐키리스 Ctrl + Shift + " </span>
+• <span class="color-keyword">Front Orthographic(-Y에서 바라보기)</span> : Numpad 1 <span class="color-comment"> 텐키리스 Ctrl + Shift + Alt + 2 </span>
 
-• <span class="color-keyword">Bottom Orthographic(-Z에서 바라보기)</span> : Ctrl + Numpad 7 <span class="color-comment"> 텐키리스 Ctrl + Shift + ] </span>
+• <span class="color-keyword">Bottom Orthographic(-Z에서 바라보기)</span> : Ctrl + Numpad 7 <span class="color-comment"> 텐키리스 Ctrl + Shift + Alt + 3 </span>
 
 
 
