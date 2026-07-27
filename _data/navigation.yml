@@ -21,9 +21,9 @@ docs:
       - title: "GameMath"
         url: /categories/GameMath
         category: "GameMath"
-      - title: "Blender"
-        url: /categories/Blender
-        category: "Blender"
+      - title: "Blender-old"
+        url: /categories/Blender-old
+        category: "Blender-old"
       - title: "PixelArt"
         url: /categories/PixelArt
         category: "PixelArt"
@@ -76,6 +76,11 @@ docs:
       - title: "AfterEffects"
         url: /categories/AfterEffects
         category: "AfterEffects"
+  - title: "SEEDLING BED - ANIMATOR"
+    children:
+      - title: "Blender"
+        url: /categories/Blender
+        category: "Blender"
   - title: "SCRIBBLES"
     children:
       - title: "Note"

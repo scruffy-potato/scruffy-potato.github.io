@@ -1,6 +1,6 @@
 ---
 title: "뷰포트와 오브젝트 컨트롤 기초"
-categories: Blender
+categories: Blender-old
 excerpt: "뷰포트 카메라 컨트롤, 오브젝트 컨트롤"
 ---
 

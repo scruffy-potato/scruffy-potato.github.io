@@ -45,3 +45,27 @@ categories: AfterEffects
 {: .notice}
 
 <img src="/img/AfterEffects/text-animation.png"/>
+
+
+
+
+# 📌 이펙트
+{: .notice}
+
+<img src="/img/AfterEffects/effect.png"/>
+
+
+
+
+# 📌 트랙 매트
+{: .notice}
+
+<img src="/img/AfterEffects/track-matte.png"/>
+
+
+
+
+# 📌 트랙 모션
+{: .notice}
+
+<img src="/img/AfterEffects/track-motion.png"/>
