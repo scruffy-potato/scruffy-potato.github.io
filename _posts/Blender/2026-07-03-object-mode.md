@@ -56,6 +56,15 @@ categories: Blender
 
 
 
+# 📌 Local View Mode
+{: .notice}
+
+
+• <span class="color-keyword">선택한 오브젝트만 보는 토글</span> : 오브젝트 선택 → /
+
+
+
+
 # 📌 G-rab
 {: .notice}
 
@@ -98,3 +107,11 @@ categories: Blender
 • <span class="color-keyword">오브젝트 Scale 특정 축 제외 수정</span> : 오브젝트 선택 → S → Shift + X, Y, Z <span class="color-comment">(직접 숫자를 입력해 값을 배율로 할당할 수도 있음, 같은 축을 한번 더 선택할 경우 Global → Local 전환)</span>
 
 • <span class="color-keyword">오브젝트 Scale 초기화</span> : 오브젝트 선택 → Alt + S
+
+
+
+
+# 📌 Select Tool
+{: .notice}
+
+• <span class="color-keyword">Select Tool 스위치 단축키</span> : W
