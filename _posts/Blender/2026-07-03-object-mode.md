@@ -115,3 +115,11 @@ categories: Blender
 {: .notice}
 
 • <span class="color-keyword">Select Tool 스위치 단축키</span> : W
+
+
+
+
+# 📌 Subdivision
+{: .notice}
+
+• <span class="color-keyword">면을 여러 개로 분할해 매끄럽게 함</span> : Ctrl 1 ~ 5 <span class="color-comment">렌치 아이콘 Modifiers 에서도 설정 가능</span>

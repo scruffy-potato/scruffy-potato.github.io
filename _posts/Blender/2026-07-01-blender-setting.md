@@ -25,3 +25,11 @@ categories: Blender
 {: .notice}
 
 <img src="/img/Blender/tenkeyless-axis.png"/>
+
+
+
+
+# 📌 레퍼런스 이미지 사용
+{: .notice}
+
+<img src="/img/Blender/ref.png"/>

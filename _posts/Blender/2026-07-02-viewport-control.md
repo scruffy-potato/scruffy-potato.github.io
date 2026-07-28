@@ -38,6 +38,22 @@ excerpt: "카메라, 3D 커서, Undo, Redo"
 
 
 
+# 📌 Viewport Shading Mode
+{: .notice}
+
+• <span class="color-keyword">Z</span> : 셰이딩 모드 팝업 창 오픈
+
+• <span class="color-keyword">→ Solid</span> : 기본 솔리드(흰색) 모드
+
+• <span class="color-keyword">→ Wireframe <span class="color-comment">(Shift + Z)</span></span> : 와이어프레임(격자) 모드
+
+• <span class="color-keyword">→ Rendered</span> : 렌더링된 모습
+
+• <span class="color-keyword">→ Material Preview</span> : 재질 미리보기 모드(라이팅 적용)
+
+
+
+
 # 📌 X-Ray Mode
 {: .notice}
 
@@ -79,3 +95,13 @@ excerpt: "카메라, 3D 커서, Undo, Redo"
 • <span class="color-keyword">Undo</span> : Ctrl + Z
 
 • <span class="color-keyword">Redo</span> : Ctrl + Shift + Z
+
+
+
+
+# 📌 Add, Sub
+{: .notice}
+
+• <span class="color-keyword">Vertex ~ Object Add 선택</span> : Shift + 선택
+
+• <span class="color-keyword">Vertex ~ Object Sub 선택</span> : Ctrl + 선택
