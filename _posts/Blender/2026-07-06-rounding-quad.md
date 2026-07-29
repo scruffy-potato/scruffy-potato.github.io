@@ -23,7 +23,9 @@ categories: Blender
 # 📌 Quad(사각형)을 써야하는 이유
 {: .notice}
 
-• <span class="color-keyword">Triangle(삼각형), N-gon(오각형 이상)을 쓰지 않고 Quad(사각형)을 써야 하는 이유</span> : Subdivision Surface(면을 잘게 나누면서 곡면을 만드는 기능)가 가장 깨끗하게 적용되는 것이 가장 큰 이유
+• <span class="color-keyword">Triangle(삼각형), N-gon(오각형 이상)을 쓰지 않고 Quad(사각형)을 써야 하는 이유</span> :
+
+Subdivision Surface(면을 잘게 나누면서 곡면을 만드는 기능)가 가장 깨끗하게 적용됨
 
 그 외에,
 
