@@ -44,3 +44,13 @@ UV 언랩이 쉬워짐
 애니메이션 미 적용 시
 
 리깅 사용 안 할 시
+
+
+
+
+# 📌 Quad Topology
+{: .notice}
+
+<img src="/img/Blender/topology.png"/>
+
+추가로 마지막에 유독 긴 Quad도 Loop Cut을 이용해 잘라 전체적으로 일정한 Quad 간격을 만들어 주는것이 더 좋은 Topology 형태
