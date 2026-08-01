@@ -52,7 +52,7 @@ categories: Blender
 
 
 
-# 📌 Mesh, Object, Topology?
+# 📌 Mesh, Object, Topology, Geometry?
 {: .notice}
 
 • <span class="color-keyword">Mesh</span> : Vertex, Edge, Face으로 만들어진 물체
@@ -60,3 +60,5 @@ categories: Blender
 • <span class="color-keyword">Object</span> : Mesh를 포함해 Location, Rotation, Scale, Modifier 등의 정보를 가지는 개체
 
 • <span class="color-keyword">Topology</span> : Mesh가 어떻게 연결되어 있는지에 대한 구조, Quad로 이루어진 형태가 좋은 Topology
+
+• <span class="color-keyword">Geometry</span> : Mesh를 포함해 Curve, Surface, Volume 등 3D 모델이 가진 형태

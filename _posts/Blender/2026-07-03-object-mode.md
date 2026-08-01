@@ -123,3 +123,21 @@ categories: Blender
 {: .notice}
 
 • <span class="color-keyword">면을 여러 개로 분할해 매끄럽게 함</span> : Ctrl 1 ~ 5 <span class="color-comment">렌치 아이콘 Modifiers 에서도 설정 가능</span>
+
+
+
+
+# 📌 Set Origin
+{: .notice}
+
+• <span class="color-keyword">오브젝트 선택 → RMB → Set Origin</span> : 각 오브젝트가 가진 Origin(기준점, 중심점)의 위치를 설정
+
+ ◦ <span class="color-variable">Geometry to Origin</span>
+
+ ◦ <span class="color-variable">Origin to Geometry</span>
+
+ ◦ <span class="color-variable">Origin to 3D Cursor</span>
+
+ ◦ <span class="color-variable">Origin to Center of Mass (Surface)</span>
+
+ ◦ <span class="color-variable">Origin to Center of Mass (Volume)</span>
