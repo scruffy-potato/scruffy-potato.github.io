@@ -1,8 +1,7 @@
 ---
-title: "Modifier - Deform"
+title: "Modifier: Deform"
 categories: Blender
-tag: [Simple Deform]
-# excerpt: ""
+excerpt: "Simple Deform"
 ---
 
 

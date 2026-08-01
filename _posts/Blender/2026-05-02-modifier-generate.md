@@ -1,14 +1,23 @@
 ---
-title: "Modifier - Generate"
+title: "Modifier: Generate"
 categories: Blender
-tag: [Mirror]
-# excerpt: ""
+excerpt: "Subdivision Surface, Mirror, Boolean"
 ---
 
 
 
 
 <span style="color:gray">blender version 5.2.0</span>
+
+
+
+
+# 📌 Subdivision Surface
+{: .notice}
+
+표면을 나누어 부드럽게 다듬는 기능, 오브젝트 선택 → Ctrl + 1~5로 원하는 Levels Viewport를 지정해 Modifier를 바로 추가할 수 있음
+
+• <span class="color-keyword">Levels Viewport</span> : 값을 조절해 표면을 나눌 정도를 조절
 
 
 
