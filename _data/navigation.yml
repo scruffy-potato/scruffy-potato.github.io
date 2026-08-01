@@ -10,6 +10,25 @@ main:
     url: /tags/
 
 docs:
+  - title: "SEEDLING BED - ANIMATOR"
+    children:
+      - title: "Blender"
+        url: /categories/Blender
+        category: "Blender"
+  - title: "SEEDLING BED - VIDEO EDIT"
+    children:
+      - title: "Photoshop"
+        url: /categories/Photoshop
+        category: "Photoshop"
+      - title: "Illustrator"
+        url: /categories/Illustrator
+        category: "Illustrator"
+      - title: "Premiere"
+        url: /categories/Premiere
+        category: "Premiere"
+      - title: "AfterEffects"
+        url: /categories/AfterEffects
+        category: "AfterEffects"
   - title: "SEEDLING BED - GAME DEV"
     children:
       - title: "Unity"
@@ -62,25 +81,6 @@ docs:
       - title: "DataStructure"
         url: /categories/DataStructure
         category: "DataStructure"
-  - title: "SEEDLING BED - VIDEO EDIT"
-    children:
-      - title: "Photoshop"
-        url: /categories/Photoshop
-        category: "Photoshop"
-      - title: "Illustrator"
-        url: /categories/Illustrator
-        category: "Illustrator"
-      - title: "Premiere"
-        url: /categories/Premiere
-        category: "Premiere"
-      - title: "AfterEffects"
-        url: /categories/AfterEffects
-        category: "AfterEffects"
-  - title: "SEEDLING BED - ANIMATOR"
-    children:
-      - title: "Blender"
-        url: /categories/Blender
-        category: "Blender"
   - title: "SCRIBBLES"
     children:
       - title: "Note"
