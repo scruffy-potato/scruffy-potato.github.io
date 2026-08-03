@@ -44,3 +44,11 @@ Boolean 모디파이어가 적용된 오브젝트에 다른 오브젝트가 영�
 • <span class="color-keyword">Union</span> : 영향을 주는 오브젝트와 겹치는 부분을 없애고 하나의 오브젝트로 만듦
 
 • <span class="color-keyword">Difference</span> : 영향을 주는 오브젝트와 겹치는 부분을 잘라냄
+
+
+
+
+# 📌 Solidify
+{: .notice}
+
+두께가 없는 평면적인 Mesh에 실제 두께를 만들어주는 기능
