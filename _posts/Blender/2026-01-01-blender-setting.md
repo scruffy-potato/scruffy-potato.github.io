@@ -1,5 +1,5 @@
 ---
-title: "Blender Set"
+title: "블렌더 세팅"
 categories: Blender
 # excerpt: ""
 ---
@@ -12,18 +12,16 @@ categories: Blender
 
 
 
-# 📌 뉴 파일 디폴트 잡기
+# 📌 작업 환경 저장
 {: .notice}
 
-<img src="/img/Blender/new-file-set.png"/>
+• <span class="color-keyword">File → Defaults → Save Startup File</span>
 
+현재 블렌더의 작업 환경을 저장한다
 
+이후에 새로운 파일을 열거나, 블렌더를 새로 실행하면
 
-
-# 📌 텐키리스 축 뷰 단축키 수정
-{: .notice}
-
-<img src="/img/Blender/tenkeyless-axis.png"/>
+저장했던 환경이 불러와진다
 
 
 
