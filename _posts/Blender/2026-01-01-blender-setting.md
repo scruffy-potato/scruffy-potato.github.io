@@ -29,5 +29,10 @@ categories: Blender
 # 📌 레퍼런스 이미지 사용
 {: .notice}
 
-<img src="/img/Blender/ref.png"/>
+<span class="color-keyword">Shift + A → Image → Reference...</span>
 
+<span class="color-comment">Orthographic View로 둔 채 추가하면 빌보드처럼 회전된 채로 불러와진다</span>
+
+<span class="color-variable">프로퍼티 창 → Data 탭 → Opacity</span> 투명도 조절
+
+<span class="color-variable">프로퍼티 창 → Collection 탭 → Visibility → Selectable</span> 속성 해제 시 오브젝트가 작업 중 선택되지 않도록 함
