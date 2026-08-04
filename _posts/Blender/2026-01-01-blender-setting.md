@@ -1,5 +1,5 @@
 ---
-title: "블렌더 세팅"
+title: "블렌더 세팅/작업 환경"
 categories: Blender
 # excerpt: ""
 ---

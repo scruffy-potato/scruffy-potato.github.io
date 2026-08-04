@@ -1,5 +1,5 @@
 ---
-title: "R값과 Triangle, Quad, N-gon"
+title: "블렌더 노트: Triangle, Quad, N-gon"
 categories: Blender
 # excerpt: ""
 ---
@@ -8,14 +8,6 @@ categories: Blender
 
 
 <span style="color:gray">blender version 5.2.0</span>
-
-
-
-
-# 📌 R값?
-{: .notice}
-
-• <span class="color-keyword">R값</span> : 모서리 부분에 라운딩을 줌(곡면을 만듦)
 
 
 
@@ -44,11 +36,3 @@ UV 언랩이 쉬워짐
 애니메이션 미 적용 시
 
 리깅 사용 안 할 시
-
-
-
-
-# 📌 실린더 4 배수
-{: .notice}
-
-<img src="/img/Blender/4-multi-cylinder.png"/>
