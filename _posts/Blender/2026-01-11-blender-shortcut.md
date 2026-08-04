@@ -35,25 +35,25 @@ categories: Blender
 # 📌 카메라 컨트롤
 {: .notice}
 
-<span class="color-keyword">화면 회전(Orbit)</span> : MMB + 마우스 이동
+<span class="color-keyword">화면 회전(Orbit)</span> MMB + 마우스 이동
 
-<span class="color-keyword">화면 이동(Pan)</span> : Shift + MMB + 마우스 이동
+<span class="color-keyword">화면 이동(Pan)</span> Shift + MMB + 마우스 이동
 
-<span class="color-keyword">줌 인/아웃</span> : Ctrl + MMB + 마우스 상하 이동
+<span class="color-keyword">줌 인/아웃</span> Ctrl + MMB + 마우스 상하 이동
 
-<span class="color-keyword">Right Orthographic(X에서 바라보기)</span> : Numpad 3
+<span class="color-keyword">Right Orthographic(X에서 바라보기)</span> Numpad 3
 
-<span class="color-keyword">Back Orthographic(Y에서 바라보기)</span> : Ctrl + Numpad 1
+<span class="color-keyword">Back Orthographic(Y에서 바라보기)</span> Ctrl + Numpad 1
 
-<span class="color-keyword">Top Orthographic(Z에서 바라보기)</span> : Numpad 7
+<span class="color-keyword">Top Orthographic(Z에서 바라보기)</span> Numpad 7
 
-<span class="color-keyword">Left Orthographic(-X에서 바라보기)</span> : Ctrl + Numpad 3
+<span class="color-keyword">Left Orthographic(-X에서 바라보기)</span> Ctrl + Numpad 3
 
-<span class="color-keyword">Front Orthographic(-Y에서 바라보기)</span> : Numpad 1
+<span class="color-keyword">Front Orthographic(-Y에서 바라보기)</span> Numpad 1
 
-<span class="color-keyword">Bottom Orthographic(-Z에서 바라보기)</span> : Ctrl + Numpad 7
+<span class="color-keyword">Bottom Orthographic(-Z에서 바라보기)</span> Ctrl + Numpad 7
 
-<span class="color-keyword">`</span> : Orthographic Viewpoint 를 선택할 수 있는 팝업 창을 커서 위치에 생성
+<span class="color-keyword">`</span> Orthographic Viewpoint 를 선택할 수 있는 팝업 창을 커서 위치에 생성
 
 
 
@@ -61,15 +61,15 @@ categories: Blender
 # 📌 Viewport Shading Mode
 {: .notice}
 
-<span class="color-keyword">Z</span> : 셰이딩 모드 팝업 창 오픈
+<span class="color-keyword">Z</span> 셰이딩 모드 팝업 창 오픈
 
-<span class="color-keyword">→ Solid</span> : 기본 솔리드(흰색) 모드
+<span class="color-keyword">→ Solid</span> 기본 솔리드(흰색) 모드
 
-<span class="color-keyword">→ Wireframe <span class="color-comment">(Shift + Z)</span></span> : 와이어프레임(격자) 모드
+<span class="color-keyword">→ Wireframe <span class="color-comment">(Shift + Z)</span></span> 와이어프레임(격자) 모드
 
-<span class="color-keyword">→ Rendered</span> : 렌더링된 모습
+<span class="color-keyword">→ Rendered</span> 렌더링된 모습
 
-<span class="color-keyword">→ Material Preview</span> : 재질 미리보기 모드(라이팅 적용)
+<span class="color-keyword">→ Material Preview</span> 재질 미리보기 모드(라이팅 적용)
 
 
 
@@ -78,7 +78,7 @@ categories: Blender
 {: .notice}
 
 
-<span class="color-keyword">엑스레이 뷰 토글 <span class="color-comment"> Orthographic viewpoint 일 때 드래그로 뒤쪽 Vertex도 선택할 수 있음 </span></span> : Alt + Z
+<span class="color-keyword">엑스레이 뷰 토글 <span class="color-comment"> Orthographic viewpoint 일 때 드래그로 뒤쪽 Vertex도 선택할 수 있음 </span></span> Alt + Z
 
 
 
@@ -86,9 +86,9 @@ categories: Blender
 # 📌 3D 커서 컨트롤
 {: .notice}
 
-<span class="color-keyword">3D 커서 위치 이동</span> : Shift + RMB
+<span class="color-keyword">3D 커서 위치 이동</span> Shift + RMB
 
-<span class="color-keyword">3D 커서 위치 초기화, 모든 오브젝트들을 한 화면에 보이게 함</span> : Shift + C
+<span class="color-keyword">3D 커서 위치 초기화, 모든 오브젝트들을 한 화면에 보이게 함</span> Shift + C
 
 
 
@@ -96,7 +96,7 @@ categories: Blender
 # 📌 Sidebar
 {: .notice}
 
-<span class="color-keyword">사이드 바 토글 <span class="color-comment"> 선택한 Vertex 의 Transform 을 볼 수 있음 </span></span> : N
+<span class="color-keyword">사이드 바 토글 <span class="color-comment"> 선택한 Vertex 의 Transform 을 볼 수 있음 </span></span> N
 
 
 
@@ -104,7 +104,7 @@ categories: Blender
 # 📌 R-epeat Last
 {: .notice}
 
-<span class="color-keyword">마지막 작업 반복</span> : Shift + R
+<span class="color-keyword">마지막 작업 반복</span> Shift + R
 
 
 
@@ -112,9 +112,9 @@ categories: Blender
 # 📌 Undo, Redo
 {: .notice}
 
-<span class="color-keyword">Undo</span> : Ctrl + Z
+<span class="color-keyword">Undo</span> Ctrl + Z
 
-<span class="color-keyword">Redo</span> : Ctrl + Shift + Z
+<span class="color-keyword">Redo</span> Ctrl + Shift + Z
 
 
 
@@ -122,6 +122,6 @@ categories: Blender
 # 📌 Add, Sub
 {: .notice}
 
-<span class="color-keyword">Vertex ~ Object Add 선택</span> : Shift + 선택
+<span class="color-keyword">Vertex ~ Object Add 선택</span> Shift + 선택
 
-<span class="color-keyword">Vertex ~ Object Sub 선택</span> : Ctrl + 선택
+<span class="color-keyword">Vertex ~ Object Sub 선택</span> Ctrl + 선택
