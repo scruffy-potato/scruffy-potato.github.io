@@ -15,14 +15,14 @@ categories: Blender
 # 📌 Pipe Joints
 {: .notice}
 
-• <span class="color-keyword">오브젝트 모드 → Mesh → Pipe Joints →</span>
+<span class="color-keyword">오브젝트 모드 → Mesh → Pipe Joints →</span>
 
-　- <span class="color-variable">Elbow</span>
+<span class="color-variable">Elbow</span>
 
-　- <span class="color-variable">T-Joint</span>
+<span class="color-variable">T-Joint</span>
 
-　- <span class="color-variable">Y-Joint</span>
+<span class="color-variable">Y-Joint</span>
 
-　- <span class="color-variable">Cross-Joint</span>
+<span class="color-variable">Cross-Joint</span>
 
-　- <span class="color-variable">N-Joint</span>
+<span class="color-variable">N-Joint</span>
