@@ -125,3 +125,17 @@ categories: Blender
 <span class="color-keyword">Shift + 선택</span>Mesh 추가 선택 <span class="color-comment">Add</span>
 
 <span class="color-keyword">Ctrl + 선택</span>Mesh 제외 선택 <span class="color-comment">Sub</span>
+
+
+
+
+# 📌 Transform Orientations
+{: .notice}
+
+• <span class="color-keyword">Transform Orientations</span> : Grab, Rotation, Scale을 사용할 때 기준이 되는 좌표축을 정함
+
+ ◦ <span class="color-variable">, → G 또는 4</span> : 블렌더 월드의 글로벌 좌표를 사용
+
+ ◦ <span class="color-variable">, → L 또는 6</span> : 오브젝트의 로컬 좌표를 사용
+
+ ◦ <span class="color-variable">, → N 또는 2</span> : Face Normal 기준으로 사용, Grab 후 Z축을 선택할 경우 Face가 바라보는 Face Normal 방향이 됨
