@@ -15,9 +15,11 @@ excerpt: "Subdivision Surface, Bevel, Mirror, Boolean, Solidify, Array"
 # 📌 Subdivision Surface
 {: .notice}
 
-표면을 나누어 부드럽게 다듬는 기능, 오브젝트 선택 → Ctrl + 1~5로 원하는 Levels Viewport를 지정해 Modifier를 바로 추가할 수 있음
+표면을 나누어 부드럽게 다듬는 기능
 
-<span class="color-keyword">Levels Viewport</span> 값을 조절해 표면을 나눌 정도를 조절
+<span class="color-keyword">오브젝트 선택 → Ctrl + 1 ~ 5</span> 원하는 Levels Viewport를 지정해 Modifier를 바로 추가
+
+<span class="color-variable">Levels Viewport</span> 값을 조절해 표면을 나눌 정도를 조절
 
 
 
