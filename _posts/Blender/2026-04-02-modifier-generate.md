@@ -27,7 +27,7 @@ excerpt: "Subdivision Surface, Bevel, Mirror, Boolean, Solidify, Array"
 # 📌 Bevel
 {: .notice}
 
-에딧 모드에서 직접 Bevel을 주는 것과 달리 모디파이어의 특징인 원본을 유지한 채로 작업한다는 장점이 있음
+에디트 모드에서 직접 Bevel을 주는 것과 달리 Modifier이기 때문에 원본을 유지한 채로 작업할 수 있다는 장점이 있음
 
 <span class="color-keyword">Angle</span> 면과 면 사이의 각도가 정한 각도보다 큰 Edge만 Bevel 적용
 
