@@ -12,7 +12,7 @@ categories: Blender
 
 
 
-# 📌 R값
+# 📌 R-adius값
 {: .notice}
 
 모서리 부분에 라운딩을 줌(곡면을 만듦)
