@@ -110,7 +110,7 @@ categories: Blender
 # 📌 Select Tool
 {: .notice}
 
-<span class="color-keyword">Select Tool 스위치 단축키</span> W
+<span class="color-keyword">W</span> Select Tool 스위치 단축키
 
 
 
