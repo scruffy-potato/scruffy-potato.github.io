@@ -61,7 +61,7 @@ categories: Blender
 # 📌 Viewport Shading 모드
 {: .notice}
 
-<span class="color-keyword">Z</span> 셰이딩 모드 팝업 창 오픈
+<span class="color-keyword">Z</span> 커서 위치에 셰이딩 모드 팝업 창 오픈
 
 <span class="color-keyword">→ Solid</span> 기본 솔리드(흰색) 모드
 
@@ -78,7 +78,7 @@ categories: Blender
 {: .notice}
 
 
-<span class="color-keyword">Alt + Z</span> 엑스레이 뷰 토글 <span class="color-comment">Orthographic viewpoint 일 때 드래그로 뒤쪽 Vertex도 선택할 수 있음</span>
+<span class="color-keyword">Alt + Z</span> 엑스레이 뷰 토글 <span class="color-comment">Orthographic viewpoint 일 때 드래그로 뒤쪽 Mesh도 선택할 수 있음</span>
 
 
 
@@ -122,20 +122,20 @@ categories: Blender
 # 📌 추가 선택, 제외 선택
 {: .notice}
 
-<span class="color-keyword">Shift + 선택</span>Mesh 추가 선택 <span class="color-comment">Add</span>
+<span class="color-keyword">Shift + 선택</span> Mesh 추가 선택 <span class="color-comment">Add</span>
 
-<span class="color-keyword">Ctrl + 선택</span>Mesh 제외 선택 <span class="color-comment">Sub</span>
-
-
+<span class="color-keyword">Ctrl + 선택</span> Mesh 제외 선택 <span class="color-comment">Sub</span>
 
 
-# 📌 Transform Orientations
+
+
+# 📌 글로벌, 로컬, 노말
 {: .notice}
 
-• <span class="color-keyword">Transform Orientations</span> : Grab, Rotation, Scale을 사용할 때 기준이 되는 좌표축을 정함
+<span class="color-keyword">,</span> 커서 위치에 Grab, Rotation, Scale을 사용할 때 기준이 되는 좌표축을 정하는 Transform Orientations 팝업 창 생성
 
- ◦ <span class="color-variable">, → G 또는 4</span> : 블렌더 월드의 글로벌 좌표를 사용
+<span class="color-variable">→ G 또는 4</span> 블렌더 월드의 글로벌 좌표를 사용
 
- ◦ <span class="color-variable">, → L 또는 6</span> : 오브젝트의 로컬 좌표를 사용
+<span class="color-variable">→ L 또는 6</span> 오브젝트의 로컬 좌표를 사용
 
- ◦ <span class="color-variable">, → N 또는 2</span> : Face Normal 기준으로 사용, Grab 후 Z축을 선택할 경우 Face가 바라보는 Face Normal 방향이 됨
+<span class="color-variable">→ N 또는 2</span> Face Normal 기준으로 사용 <span class="color-comment">Grab 후 Z축을 선택할 경우 Face가 바라보는 Face Normal 방향이 됨</span>

@@ -15,7 +15,7 @@ categories: Blender
 # 📌 A-dd
 {: .notice}
 
-<span class="color-keyword">Add 탭 단축키 </span><span class="color-comment">(개체는 3D 커서 위치에 생성됨)</span> Shift + A
+<span class="color-keyword">Shift + A</span> 커서 위치에 Add 창 팝업 생성 <span class="color-comment">개체는 3D 커서 위치에 생성됨</span>
 
 
 
@@ -23,7 +23,7 @@ categories: Blender
 # 📌 D-uplicate
 {: .notice}
 
-<span class="color-keyword">오브젝트 복제</span> 오브젝트 선택 → Shift + D
+<span class="color-keyword">오브젝트 선택 → Shift + D</span> 오브젝트 복제
 
 
 
@@ -31,7 +31,7 @@ categories: Blender
 # 📌 Delete
 {: .notice}
 
-<span class="color-keyword">오브젝트 삭제</span> 오브젝트 선택 → X 또는 Delete
+<span class="color-keyword">오브젝트 선택 → X 또는 Delete</span> 오브젝트 삭제
 
 
 
@@ -39,7 +39,7 @@ categories: Blender
 # 📌 J-oin
 {: .notice}
 
-<span class="color-keyword">오브젝트들을 하나의 오브젝트로 합치기</span> <span class="color-comment">(마지막으로 선택한 오브젝트가 기준이 됨)</span> 두 개 이상의 오브젝트 선택 → Ctrl + J
+<span class="color-keyword">두 개 이상의 오브젝트 선택 → Ctrl + J</span> 오브젝트들을 하나의 오브젝트로 합치기 <span class="color-comment">액티브 오브젝트가 기준이 됨</span> 
 
 
 
@@ -47,11 +47,11 @@ categories: Blender
 # 📌 H-ide
 {: .notice}
 
-<span class="color-keyword">뷰포트에서 오브젝트 숨기기</span> 오브젝트 선택 → H
+<span class="color-keyword">오브젝트 선택 → H</span> 뷰포트에서 선택한 오브젝트 오브젝트 숨기기
 
-<span class="color-keyword">선택한 오브젝트만 보기</span> <span class="color-comment">(다른 오브젝트들을 뷰포트에서 숨김)</span> 오브젝트 선택 → Shift + H
+<span class="color-keyword">오브젝트 선택 → Shift + H</span> 뷰포트에서 선택한 오브젝트 제외 숨기기
 
-<span class="color-keyword">모든 숨겨진 오브젝트들을 다시 보이게 하기</span> Alt + H
+<span class="color-keyword">Alt + H</span> 모든 숨겨진 오브젝트들을 다시 보이게 하기
 
 
 
@@ -60,7 +60,7 @@ categories: Blender
 {: .notice}
 
 
-<span class="color-keyword">선택한 오브젝트만 보는 토글</span> 오브젝트 선택 → /
+<span class="color-keyword">오브젝트 선택 → /</span> 선택한 오브젝트만 보는 토글
 
 
 
@@ -68,15 +68,11 @@ categories: Blender
 # 📌 G-rab
 {: .notice}
 
-<span class="color-comment">마우스 조절 시 Shift 키 홀드를 통해 미세 조절 가능</span>
-
-<span class="color-keyword">오브젝트 Location 수정</span> 오브젝트 선택 → G
+<span class="color-keyword">오브젝트 선택 → G</span> 오브젝트 Location 수정
 
 <span class="color-keyword">오브젝트 Location 특정 축 수정</span> 오브젝트 선택 → G → X, Y, Z <span class="color-comment">(직접 숫자를 입력해 값을 할당할 수 있음, 같은 축을 한번 더 선택할 경우 Global → Local 전환)</span>
 
 <span class="color-keyword">오브젝트 Location 특정 축 제외 수정</span> 오브젝트 선택 → G → Shift + X, Y, Z <span class="color-comment">(같은 축을 한번 더 선택할 경우 Global → Local 전환)</span>
-
-<span class="color-keyword">오브젝트 Location 초기화</span> 오브젝트 선택 → Alt + G
 
 
 
@@ -84,13 +80,9 @@ categories: Blender
 # 📌 R-otation
 {: .notice}
 
-<span class="color-comment">마우스 조절 시 Shift 키 홀드를 통해 미세 조절 가능</span>
-
 <span class="color-keyword">오브젝트 Rotation 수정</span> 오브젝트 선택 → R
 
 <span class="color-keyword">오브젝트 Rotation 특정 축 수정</span> 오브젝트 선택 → R → X, Y, Z <span class="color-comment">(직접 숫자를 입력해 값을 할당할 수 있음, 같은 축을 한번 더 선택할 경우 Global → Local 전환)</span>
-
-<span class="color-keyword">오브젝트 Rotation 초기화</span> 오브젝트 선택 → Alt + R
 
 
 
@@ -98,15 +90,19 @@ categories: Blender
 # 📌 S-cale
 {: .notice}
 
-<span class="color-comment">마우스 조절 시 Shift 키 홀드를 통해 미세 조절 가능</span>
-
 <span class="color-keyword">오브젝트 Scale 수정</span> 오브젝트 선택 → S
 
 <span class="color-keyword">오브젝트 Scale 특정 축 수정</span> 오브젝트 선택 → S → X, Y, Z <span class="color-comment">(직접 숫자를 입력해 값을 배율로 할당할 수도 있음, 같은 축을 한번 더 선택할 경우 Global → Local 전환)</span>
 
 <span class="color-keyword">오브젝트 Scale 특정 축 제외 수정</span> 오브젝트 선택 → S → Shift + X, Y, Z <span class="color-comment">(직접 숫자를 입력해 값을 배율로 할당할 수도 있음, 같은 축을 한번 더 선택할 경우 Global → Local 전환)</span>
 
-<span class="color-keyword">오브젝트 Scale 초기화</span> 오브젝트 선택 → Alt + S
+
+
+
+# 📌 Transform 초기화
+{: .notice}
+
+<span class="color-keyword">오브젝트 선택 → Alt + G, R, S</span> 오브젝트 Location, Rotation, Scale 초기화
 
 
 
