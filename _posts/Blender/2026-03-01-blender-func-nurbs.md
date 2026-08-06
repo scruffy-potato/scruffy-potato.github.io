@@ -1,5 +1,5 @@
 ---
-title: "NURBS"
+title: "블렌더 기능: NURBS"
 categories: Blender
 # excerpt: ""
 ---

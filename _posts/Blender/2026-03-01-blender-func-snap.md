@@ -1,5 +1,5 @@
 ---
-title: "Snap"
+title: "블렌더 기능: Snap"
 categories: Blender
 # excerpt: ""
 ---

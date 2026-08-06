@@ -1,5 +1,5 @@
 ---
-title: "Object Mode"
+title: "오브젝트 모드"
 categories: Blender
 # excerpt: ""
 ---
