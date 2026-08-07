@@ -36,18 +36,6 @@ categories: Blender
 
 
 
-# 📌 H-ide
-{: .notice}
-
-<span class="color-keyword">오브젝트 선택 → H</span> 뷰포트에서 선택한 오브젝트 오브젝트 숨기기
-
-<span class="color-keyword">오브젝트 선택 → Shift + H</span> 뷰포트에서 선택한 오브젝트 제외 숨기기
-
-<span class="color-keyword">Alt + H</span> 모든 숨겨진 오브젝트들을 다시 보이게 하기
-
-
-
-
 # 📌 Transform 초기화
 {: .notice}
 
