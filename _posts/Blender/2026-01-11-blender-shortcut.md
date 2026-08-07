@@ -165,3 +165,55 @@ categories: Blender
 {: .notice}
 
 <span class="color-keyword">W</span> Select Tool <span class="color-variable">Tweak, Select Box, Select Circle, Select Lasso</span>
+
+
+
+
+# 📌 D-uplicate
+{: .notice}
+
+<span class="color-keyword">오브젝트, Mesh 선택 → Shift + D</span> 오브젝트, Mesh 복제
+
+
+
+
+# 📌 Transform
+{: .notice}
+
+G-rab
+
+<span class="color-keyword">Mesh 선택 → G</span> Mesh Location 수정
+
+<span class="color-keyword">Mesh 선택 → G → X, Y, Z</span> Mesh Location 특정 축 수정 <span class="color-comment">같은 축을 한번 더 선택할 경우 Global → Local 전환, 직접 숫자를 입력해 값을 할당할 수 있음</span>
+
+<span class="color-keyword">Mesh 선택 → G → Shift + X, Y, Z</span> Mesh Location 특정 축 제외 수정 <span class="color-comment">같은 축을 한번 더 선택할 경우 Global → Local 전환</span>
+
+R-otation
+
+<span class="color-keyword">Mesh 선택 → R</span> Mesh Rotation 수정
+
+<span class="color-keyword">Mesh 선택 → R → X, Y, Z</span> Mesh Rotation 특정 축 수정 <span class="color-comment">같은 축을 한번 더 선택할 경우 Global → Local 전환, 직접 숫자를 입력해 값을 할당할 수 있음</span>
+
+S-cale
+
+<span class="color-keyword">Mesh 선택 → S</span> Mesh Scale 수정
+
+<span class="color-keyword">Mesh 선택 → S → X, Y, Z</span> Mesh Scale 특정 축 수정 <span class="color-comment">같은 축을 한번 더 선택할 경우 Global → Local 전환, 직접 숫자를 입력해 값을 배율로 할당할 수도 있음</span>
+
+<span class="color-keyword">Mesh 선택 → S → Shift + X, Y, Z</span> Mesh Scale 특정 축 제외 수정 <span class="color-comment">같은 축을 한번 더 선택할 경우 Global → Local 전환, 직접 숫자를 입력해 값을 배율로 할당할 수도 있음</span>
+
+
+
+
+# 📌 Local View 모드
+{: .notice}
+
+<span class="color-keyword">오브젝트 선택 → /</span> 선택한 오브젝트만 보기 <span class="color-comment">토글</span>
+
+
+
+
+# 📌 오브젝트 ↔ 에디트 모드 전환
+{: .notice}
+
+<span class="color-keyword">Tab</span>
