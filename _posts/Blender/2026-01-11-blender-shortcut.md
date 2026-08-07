@@ -188,7 +188,7 @@ G-rab
 
 <span class="color-keyword">Mesh 선택 → G → Shift + X, Y, Z</span> Mesh Location 특정 축 제외 수정 <span class="color-comment">같은 축을 한번 더 선택할 경우 Global → Local 전환</span>
 
-
+<br><br>
 
 R-otation
 
@@ -196,7 +196,7 @@ R-otation
 
 <span class="color-keyword">Mesh 선택 → R → X, Y, Z</span> Mesh Rotation 특정 축 수정 <span class="color-comment">같은 축을 한번 더 선택할 경우 Global → Local 전환, 직접 숫자를 입력해 값을 할당할 수 있음</span>
 
-
+<br><br>
 
 S-cale
 
