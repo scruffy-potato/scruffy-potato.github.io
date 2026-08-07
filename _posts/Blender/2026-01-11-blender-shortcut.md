@@ -63,9 +63,9 @@ categories: Blender
 
 <span class="color-keyword">Z</span> 커서 위치에 셰이딩 모드 팝업 창 오픈
 
-<span class="color-keyword">→ Solid</span> 기본 솔리드(흰색) 모드
+<span class="color-keyword">→ Solid</span> 기본 단색(흰색) 모드
 
-<span class="color-keyword">→ Wireframe <span class="color-comment">(Shift + Z)</span></span> 와이어프레임(격자) 모드
+<span class="color-keyword">→ Wireframe <span class="color-comment">(Shift + Z)</span></span> 격자 모드
 
 <span class="color-keyword">→ Rendered</span> 렌더링된 모습
 
@@ -134,8 +134,16 @@ categories: Blender
 
 <span class="color-keyword">,</span> 커서 위치에 Grab, Rotation, Scale을 사용할 때 기준이 되는 좌표축을 정하는 Transform Orientations 팝업 창 생성
 
-<span class="color-variable">→ G 또는 4</span> 블렌더 월드의 글로벌 좌표를 사용
+<span class="color-variable">→ G 또는 4</span> 블렌더 월드의 Global 좌표를 사용
 
-<span class="color-variable">→ L 또는 6</span> 오브젝트의 로컬 좌표를 사용
+<span class="color-variable">→ L 또는 6</span> 오브젝트의 Local 좌표를 사용
 
 <span class="color-variable">→ N 또는 2</span> Face Normal 기준으로 사용 <span class="color-comment">Grab 후 Z축을 선택할 경우 Face가 바라보는 Face Normal 방향이 됨</span>
+
+
+
+
+# 📌 도구
+{: .notice}
+
+<span class="color-keyword">W</span> Select Tool <span class="color-variable">Tweak, Select Box, Select Circle, Select Lasso</span>

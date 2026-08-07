@@ -17,7 +17,7 @@ categories: Blender
 
 <span class="color-variable">큐브로 예를 들었을 때</span>
 
-면이 삭제되어 구멍이 뚫려있는 경우, 내부에 면이 들어가 있는 경우를 Non-Manifold라 말한다
+Face가 삭제되어 구멍이 뚫려있는 경우, 내부에 Face가 들어가 있는 경우를 Non-Manifold라 말한다
 
 <span class="color-variable">이 경우들은 공통적으로</span>
 
@@ -27,4 +27,4 @@ categories: Blender
 
 <span class="color-variable">Non-Manifold가 생기면 발생하는 문제는</span>
 
-Subdivision, UV, Shading, 리깅, 애니메이션 중 문제가 생길 수 있다
+Subdivision, UV, Shading, Rigging, Animation 중 문제가 생길 수 있다
