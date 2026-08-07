@@ -56,7 +56,7 @@ categories: Blender
 
 
 
-# 📌 Local View Mode
+# 📌 Local View 모드
 {: .notice}
 
 
@@ -70,9 +70,9 @@ categories: Blender
 
 <span class="color-keyword">오브젝트 선택 → G</span> 오브젝트 Location 수정
 
-<span class="color-keyword">오브젝트 선택 → G → X, Y, Z</span> 오브젝트 Location 특정 축 수정 <span class="color-comment">(직접 숫자를 입력해 값을 할당할 수 있음, 같은 축을 한번 더 선택할 경우 Global → Local 전환)</span>
+<span class="color-keyword">오브젝트 선택 → G → X, Y, Z</span> 오브젝트 Location 특정 축 수정 <span class="color-comment">같은 축을 한번 더 선택할 경우 Global → Local 전환, 직접 숫자를 입력해 값을 할당할 수 있음</span>
 
-<span class="color-keyword">오브젝트 선택 → G → Shift + X, Y, Z</span> 오브젝트 Location 특정 축 제외 수정 <span class="color-comment">(같은 축을 한번 더 선택할 경우 Global → Local 전환)</span>
+<span class="color-keyword">오브젝트 선택 → G → Shift + X, Y, Z</span> 오브젝트 Location 특정 축 제외 수정 <span class="color-comment">같은 축을 한번 더 선택할 경우 Global → Local 전환</span>
 
 
 
@@ -82,7 +82,7 @@ categories: Blender
 
 <span class="color-keyword">오브젝트 선택 → R</span> 오브젝트 Rotation 수정
 
-<span class="color-keyword">오브젝트 선택 → R → X, Y, Z</span> 오브젝트 Rotation 특정 축 수정 <span class="color-comment">(직접 숫자를 입력해 값을 할당할 수 있음, 같은 축을 한번 더 선택할 경우 Global → Local 전환)</span>
+<span class="color-keyword">오브젝트 선택 → R → X, Y, Z</span> 오브젝트 Rotation 특정 축 수정 <span class="color-comment">같은 축을 한번 더 선택할 경우 Global → Local 전환, 직접 숫자를 입력해 값을 할당할 수 있음</span>
 
 
 
@@ -92,9 +92,9 @@ categories: Blender
 
 <span class="color-keyword">오브젝트 선택 → S</span> 오브젝트 Scale 수정
 
-<span class="color-keyword">오브젝트 선택 → S → X, Y, Z</span> 오브젝트 Scale 특정 축 수정 <span class="color-comment">(직접 숫자를 입력해 값을 배율로 할당할 수도 있음, 같은 축을 한번 더 선택할 경우 Global → Local 전환)</span>
+<span class="color-keyword">오브젝트 선택 → S → X, Y, Z</span> 오브젝트 Scale 특정 축 수정 <span class="color-comment">같은 축을 한번 더 선택할 경우 Global → Local 전환, 직접 숫자를 입력해 값을 배율로 할당할 수도 있음</span>
 
-<span class="color-keyword">오브젝트 선택 → S → Shift + X, Y, Z</span> 오브젝트 Scale 특정 축 제외 수정 <span class="color-comment">(직접 숫자를 입력해 값을 배율로 할당할 수도 있음, 같은 축을 한번 더 선택할 경우 Global → Local 전환)</span>
+<span class="color-keyword">오브젝트 선택 → S → Shift + X, Y, Z</span> 오브젝트 Scale 특정 축 제외 수정 <span class="color-comment">같은 축을 한번 더 선택할 경우 Global → Local 전환, 직접 숫자를 입력해 값을 배율로 할당할 수도 있음</span>
 
 
 
