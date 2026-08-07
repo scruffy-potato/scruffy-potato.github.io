@@ -143,6 +143,24 @@ categories: Blender
 
 
 
+# 📌 Pivot 변경
+{: .notice}
+
+<span class="color-keyword">.</span> 커서 위치에 Transform Pivot Point 팝업 창 생성 
+
+<span class="color-variable">Bounding Box Center</span> 선택된 오브젝트의 외곽을 감싸는 최소한의 박스의 중심이 Pivot이 됨
+
+<span class="color-variable">3D Cursor</span> 현재 3D Cursor가 Pivot이 됨
+
+<span class="color-variable">Individual Origins</span> Origin이 Pivot이 됨, 여러 오브젝트를 선택할 때 각각의 오브젝트가 자기 자신의 Origin을 Pivot으로 가짐
+
+<span class="color-variable">Median Point</span> 여러 오브젝트를 선택할 때 오브젝트들의 Origin의 중앙점이 Pivot이 됨
+
+<span class="color-variable">Active Element</span> 여러 오브젝트를 선택할 때 Active 오브젝트의 Origin이 Pivot이 됨
+
+
+
+
 # 📌 도구
 {: .notice}
 
