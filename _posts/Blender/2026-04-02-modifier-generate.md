@@ -29,9 +29,9 @@ excerpt: "Subdivision Surface, Bevel, Mirror, Boolean, Solidify, Array"
 
 에디트 모드에서 직접 Bevel을 주는 것과 달리 Modifier이기 때문에 원본을 유지한 채로 작업할 수 있다는 장점이 있음
 
-<span class="color-keyword">Angle</span> 면과 면 사이의 각도가 정한 각도보다 큰 Edge만 Bevel 적용
+<span class="color-keyword">Angle</span> Face와 Face 사이의 Angle이 | 지정한 Angle보다 큰 Edge만 Bevel 적용
 
-<span class="color-keyword">Weight</span> Edit모드에서 Edge마다 사이드 바(N)의 Item → Transform → Edge Data → Bevel Weight의 값을 조절해 원하는 Edge만 Bevel이 적용되게 할 수 있음 <span class="color-comment">Edges를 선택할 경우 Edges Data → Mean Bevel Weight로 표현됨</span>
+<span class="color-keyword">Weight</span> 에디트 모드에서 Edge마다 사이드 바(N)의 Item → Transform → Edge Data → Bevel Weight의 값을 조절해 원하는 Edge만 Bevel이 적용되게 할 수 있음 <span class="color-comment">Edges를 선택할 경우 Edges Data → Mean Bevel Weight로 표현됨</span>
 
 
 
@@ -43,7 +43,7 @@ excerpt: "Subdivision Surface, Bevel, Mirror, Boolean, Solidify, Array"
 
 <span class="color-keyword">Clipping</span> 대칭되는 중심에서 Vertex가 겹쳐 붙어 중앙선이 찢어지는 걸 방지할 수 있음
 
-<span class="color-keyword">Merge</span> 대칭 복사된 Vertex가 일정거리(Merge Distance) 이내에 있을 경우 자동 병합됨
+<span class="color-keyword">Merge</span> 대칭 복사된 Vertex가 일정 거리(Merge Distance) 이내에 있을 경우 자동 병합됨
 
 
 
@@ -51,7 +51,7 @@ excerpt: "Subdivision Surface, Bevel, Mirror, Boolean, Solidify, Array"
 # 📌 Boolean
 {: .notice}
 
-Boolean 모디파이어가 적용된 오브젝트에 다른 오브젝트가 영향을 주어 겹치는 부분만 남기거나, 모델링을 합치거나, 절단하는 기능
+Boolean Modifier가 적용된 오브젝트에 다른 오브젝트가 영향을 주어 겹치는 부분만 남기거나, 모델링을 합치거나, 절단하는 기능
 
 <span class="color-keyword">Intersect</span> 영향을 주는 오브젝트와 겹치는 부분만 남김
 

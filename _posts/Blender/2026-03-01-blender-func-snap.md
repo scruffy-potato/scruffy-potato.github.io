@@ -15,7 +15,7 @@ categories: Blender
 # 📌 Snap
 {: .notice}
 
-<span class="color-keyword">Shift + Tab</span> 선택한 요소를 다른 요소에 정확하게 붙여 정렬하는 기능. 상단의 자석 모양 토글식 아이콘을 이용할 수 있으나, 이 방식은 불편한 점이 많아 Mesh를 선택하고 Grab된 상태로 Ctrl 키를 홀드해 사용
+<span class="color-keyword">Shift + Tab</span> 선택한 요소를 다른 요소에 정확하게 붙여 정렬하는 기능. 상단의 자석 모양 토글식 아이콘을 이용할 수 있으나, 이 방식은 불편한 점이 많아 Mesh를 선택하고 Grab된 상태로 <span class="color-keyword">Ctrl 키를 홀드해 사용</span>
 
 
 
@@ -23,7 +23,7 @@ categories: Blender
 # 📌 Snapping
 {: .notice}
 
-<span class="color-keyword">Ctrl + Shift + Tab</span> Snap의 속성을 설정. Snap 아이콘 옆에 위치하나 단축키로 커서 위치에 팝업 이용
+<span class="color-keyword">Ctrl + Shift + Tab</span> 커서 위치에 Snap의 속성을 설정하는 팝업 창 생성
 
 Snap Base
 
