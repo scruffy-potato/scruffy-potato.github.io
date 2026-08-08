@@ -74,6 +74,14 @@ categories: Blender
 
 
 
+# 📌 오브젝트 ↔ 에디트 모드 전환
+{: .notice}
+
+<span class="color-keyword">Tab</span>
+
+
+
+
 # 📌 X-Ray 모드
 {: .notice}
 
@@ -83,28 +91,10 @@ categories: Blender
 
 
 
-# 📌 3D 커서 컨트롤
-{: .notice}
-
-<span class="color-keyword">Shift + RMB</span> 3D 커서 위치 이동
-
-<span class="color-keyword">Shift + C</span> 3D 커서 위치 초기화, 모든 오브젝트들을 한 화면에 보이게 함
-
-
-
-
 # 📌 사이드 바
 {: .notice}
 
 <span class="color-keyword">N</span> 사이드 바 토글 <span class="color-comment">선택한 Vertex 의 Transform 을 볼 수 있음</span>
-
-
-
-
-# 📌 마지막 작업 반복
-{: .notice}
-
-<span class="color-keyword">Shift + R</span> R-epeat Last
 
 
 
@@ -119,12 +109,30 @@ categories: Blender
 
 
 
+# 📌 마지막 작업 반복
+{: .notice}
+
+<span class="color-keyword">Shift + R</span> R-epeat Last
+
+
+
+
 # 📌 추가 선택, 제외 선택
 {: .notice}
 
 <span class="color-keyword">Shift + 선택</span> Mesh 추가 선택 <span class="color-comment">Add</span>
 
 <span class="color-keyword">Ctrl + 선택</span> Mesh 제외 선택 <span class="color-comment">Sub</span>
+
+
+
+
+# 📌 3D 커서 컨트롤
+{: .notice}
+
+<span class="color-keyword">Shift + RMB</span> 3D 커서 위치 이동
+
+<span class="color-keyword">Shift + C</span> 3D 커서 위치 초기화, 모든 오브젝트들을 한 화면에 보이게 함
 
 
 
@@ -161,18 +169,10 @@ categories: Blender
 
 
 
-# 📌 도구
+# 📌 도구 단축키
 {: .notice}
 
 <span class="color-keyword">W</span> Select Tool <span class="color-variable">Tweak, Select Box, Select Circle, Select Lasso</span>
-
-
-
-
-# 📌 D-uplicate
-{: .notice}
-
-<span class="color-keyword">오브젝트, Mesh 선택 → Shift + D</span> 오브젝트, Mesh 복제
 
 
 
@@ -209,18 +209,10 @@ S-cale
 
 
 
-# 📌 Local View 모드
+# 📌 D-uplicate
 {: .notice}
 
-<span class="color-keyword">오브젝트 선택 → /</span> 선택한 오브젝트만 보기 <span class="color-comment">토글</span>
-
-
-
-
-# 📌 오브젝트 ↔ 에디트 모드 전환
-{: .notice}
-
-<span class="color-keyword">Tab</span>
+<span class="color-keyword">오브젝트, Mesh 선택 → Shift + D</span> 오브젝트, Mesh 복제
 
 
 
@@ -233,3 +225,11 @@ S-cale
 <span class="color-keyword">Mesh 선택 → Shift + H</span> 선택한 Mesh 제외 숨기기
 
 <span class="color-keyword">Alt + H</span> 모든 숨겨진 Mesh들을 다시 보이게 하기
+
+
+
+
+# 📌 Local View 모드
+{: .notice}
+
+<span class="color-keyword">오브젝트 선택 → /</span> 선택한 오브젝트만 보기 <span class="color-comment">토글</span>
