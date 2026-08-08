@@ -58,6 +58,58 @@ categories: Blender
 
 
 
+# 📌 유연한 작업
+{: .notice}
+
+<span class="color-keyword">Ctrl + Z</span> Undo
+
+<span class="color-keyword">Ctrl + Shift + Z</span> Redo
+
+<hr>
+
+<span class="color-keyword">Shift + R</span> R-epeat Last
+
+<hr>
+
+<span class="color-keyword">Shift + 선택</span> Mesh 추가 선택 <span class="color-comment">Add</span>
+
+<span class="color-keyword">Ctrl + 선택</span> Mesh 제외 선택 <span class="color-comment">Sub</span>
+
+<hr>
+
+<span class="color-keyword">Mesh 선택 → H</span> 선택한 Mesh 숨기기
+
+<span class="color-keyword">Mesh 선택 → Shift + H</span> 선택한 Mesh 제외 숨기기
+
+<span class="color-keyword">Alt + H</span> 모든 숨겨진 Mesh들을 다시 보이게 하기
+
+<hr>
+
+<span class="color-keyword">오브젝트 선택 → /</span> 선택한 오브젝트만 보기 <span class="color-comment">토글</span>
+
+<hr>
+
+<span class="color-keyword">오브젝트, Mesh 선택 → Shift + D</span> 오브젝트, Mesh Duplicate
+
+
+
+
+# 📌 토글
+{: .notice}
+
+<span class="color-keyword">N</span> 사이드 바 토글 <span class="color-comment">선택한 Vertex 의 Transform 을 볼 수 있음</span>
+
+<br>
+
+<span class="color-keyword">Tab</span> 오브젝트 ↔ 에디트 모드 전환
+
+<br>
+
+<span class="color-keyword">Alt + Z</span> X-Ray View <span class="color-comment">Orthographic viewpoint 일 때 드래그로 뒤쪽 Mesh도 선택할 수 있음</span>
+
+
+
+
 # 📌 Viewport Shading 모드
 {: .notice}
 
@@ -70,59 +122,6 @@ categories: Blender
 <span class="color-keyword">→ Rendered</span> 렌더링된 모습
 
 <span class="color-keyword">→ Material Preview</span> 재질 미리보기 모드(라이팅 적용)
-
-
-
-
-# 📌 오브젝트 ↔ 에디트 모드 전환
-{: .notice}
-
-<span class="color-keyword">Tab</span>
-
-
-
-
-# 📌 X-Ray 모드
-{: .notice}
-
-
-<span class="color-keyword">Alt + Z</span> 엑스레이 뷰 토글 <span class="color-comment">Orthographic viewpoint 일 때 드래그로 뒤쪽 Mesh도 선택할 수 있음</span>
-
-
-
-
-# 📌 사이드 바
-{: .notice}
-
-<span class="color-keyword">N</span> 사이드 바 토글 <span class="color-comment">선택한 Vertex 의 Transform 을 볼 수 있음</span>
-
-
-
-
-# 📌 Undo, Redo
-{: .notice}
-
-<span class="color-keyword">Ctrl + Z</span> Undo
-
-<span class="color-keyword">Ctrl + Shift + Z</span> Redo
-
-
-
-
-# 📌 마지막 작업 반복
-{: .notice}
-
-<span class="color-keyword">Shift + R</span> R-epeat Last
-
-
-
-
-# 📌 추가 선택, 제외 선택
-{: .notice}
-
-<span class="color-keyword">Shift + 선택</span> Mesh 추가 선택 <span class="color-comment">Add</span>
-
-<span class="color-keyword">Ctrl + 선택</span> Mesh 제외 선택 <span class="color-comment">Sub</span>
 
 
 
@@ -188,7 +187,7 @@ G-rab
 
 <span class="color-keyword">Mesh 선택 → G → Shift + X, Y, Z</span> Mesh Location 특정 축 제외 수정 <span class="color-comment">같은 축을 한번 더 선택할 경우 Global → Local 전환</span>
 
-<br>
+<hr>
 
 R-otation
 
@@ -196,7 +195,7 @@ R-otation
 
 <span class="color-keyword">Mesh 선택 → R → X, Y, Z</span> Mesh Rotation 특정 축 수정 <span class="color-comment">같은 축을 한번 더 선택할 경우 Global → Local 전환, 직접 숫자를 입력해 값을 할당할 수 있음</span>
 
-<br>
+<hr>
 
 S-cale
 
@@ -205,31 +204,3 @@ S-cale
 <span class="color-keyword">Mesh 선택 → S → X, Y, Z</span> Mesh Scale 특정 축 수정 <span class="color-comment">같은 축을 한번 더 선택할 경우 Global → Local 전환, 직접 숫자를 입력해 값을 배율로 할당할 수도 있음</span>
 
 <span class="color-keyword">Mesh 선택 → S → Shift + X, Y, Z</span> Mesh Scale 특정 축 제외 수정 <span class="color-comment">같은 축을 한번 더 선택할 경우 Global → Local 전환, 직접 숫자를 입력해 값을 배율로 할당할 수도 있음</span>
-
-
-
-
-# 📌 D-uplicate
-{: .notice}
-
-<span class="color-keyword">오브젝트, Mesh 선택 → Shift + D</span> 오브젝트, Mesh 복제
-
-
-
-
-# 📌 Mesh 숨기기/보이기
-{: .notice}
-
-<span class="color-keyword">Mesh 선택 → H</span> 선택한 Mesh 숨기기
-
-<span class="color-keyword">Mesh 선택 → Shift + H</span> 선택한 Mesh 제외 숨기기
-
-<span class="color-keyword">Alt + H</span> 모든 숨겨진 Mesh들을 다시 보이게 하기
-
-
-
-
-# 📌 Local View 모드
-{: .notice}
-
-<span class="color-keyword">오브젝트 선택 → /</span> 선택한 오브젝트만 보기 <span class="color-comment">토글</span>
