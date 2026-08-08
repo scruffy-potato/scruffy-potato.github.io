@@ -81,17 +81,17 @@ categories: Blender
 
 <span class="color-keyword">Ctrl + Shift + Z</span> Redo
 
-
+<br>
 
 <span class="color-keyword">Shift + R</span> R-epeat Last
 
-
+<br>
 
 <span class="color-keyword">Shift + 선택</span> Mesh 추가 선택 <span class="color-comment">Add</span>
 
 <span class="color-keyword">Ctrl + 선택</span> Mesh 제외 선택 <span class="color-comment">Sub</span>
 
-
+<br>
 
 <span class="color-keyword">Mesh 선택 → H</span> 선택한 Mesh 숨기기
 
@@ -99,11 +99,11 @@ categories: Blender
 
 <span class="color-keyword">Alt + H</span> 모든 숨겨진 Mesh들을 다시 보이게 하기
 
-
+<br>
 
 <span class="color-keyword">오브젝트 선택 → /</span> 선택한 오브젝트만 보기 <span class="color-comment">토글</span>
 
-
+<br>
 
 <span class="color-keyword">오브젝트, Mesh 선택 → Shift + D</span> 오브젝트, Mesh Duplicate
 
@@ -123,11 +123,11 @@ categories: Blender
 
 <span class="color-keyword">Tab</span> 오브젝트 ↔ 에디트 모드 전환
 
-
+<br>
 
 <span class="color-keyword">N</span> 사이드 바 토글 <span class="color-comment">선택한 Vertex 의 Transform 을 볼 수 있음</span>
 
-
+<br>
 
 <span class="color-keyword">Alt + Z</span> X-Ray View <span class="color-comment">Orthographic viewpoint 일 때 드래그로 뒤쪽 Mesh도 선택할 수 있음</span>
 
@@ -187,7 +187,7 @@ G-rab
 
 <span class="color-keyword">Mesh 선택 → G → Shift + X, Y, Z</span> Mesh Location 특정 축 제외 수정 <span class="color-comment">같은 축을 한번 더 선택할 경우 Global → Local 전환</span>
 
-
+<br>
 
 R-otation
 
@@ -195,7 +195,7 @@ R-otation
 
 <span class="color-keyword">Mesh 선택 → R → X, Y, Z</span> Mesh Rotation 특정 축 수정 <span class="color-comment">같은 축을 한번 더 선택할 경우 Global → Local 전환, 직접 숫자를 입력해 값을 할당할 수 있음</span>
 
-
+<br>
 
 S-cale
 
