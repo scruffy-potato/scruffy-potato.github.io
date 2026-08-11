@@ -1,7 +1,7 @@
 ---
-title: "Blender-old"
+title: "Roblox"
 layout: archive
-permalink: categories/Blender-old
+permalink: categories/Roblox
 author_profile: true
 sidebar_main: true
 sidebar:
@@ -9,5 +9,5 @@ sidebar:
 classes: wide
 ---
 
-{% assign posts = site.categories.Blender-old %}
+{% assign posts = site.categories.Roblox %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
