@@ -15,7 +15,7 @@ categories: Blender
 # 📌 Pipe Joints
 {: .notice}
 
-<span class="color-keyword">오브젝트 모드 → Mesh → Pipe Joints →</span>
+<span class="color-keyword">오브젝트 모드에서 A(Add) → Mesh → Pipe Joints →</span>
 
 <span class="color-variable">Elbow</span>
 

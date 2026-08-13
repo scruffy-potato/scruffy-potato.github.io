@@ -107,6 +107,14 @@ categories: Blender
 
 <span class="color-keyword">오브젝트, Mesh 선택 → Shift + D</span> 오브젝트, Mesh Duplicate
 
+<br>
+
+<span class="color-keyword">F9</span> 커서 위치에 이전 작업 패널 다시 열기
+
+<br>
+
+<span class="color-keyword">Ctrl + Alt + Q</span> Viewport 4분할(User Perspective, Top, Front, Right) 토글
+
 
 
 

@@ -1,0 +1,19 @@
+---
+title: "Extensions: UV Toolkit"
+categories: Blender
+# excerpt: ""
+---
+
+
+
+
+<span style="color:gray">blender version 5.2.0</span>
+
+
+
+
+# 📌 Pack UVs
+{: .notice}
+
+<span class="color-keyword">UV Editor → N → UV Toolkit → Tools → Pack UVs</span> 선택한 Mesh들을 UV Space 안에 겹치지 않게 매핑<span class="color-comment"> 다른 오브젝트도 포함해 매핑시킬 수 있음</span>
+
