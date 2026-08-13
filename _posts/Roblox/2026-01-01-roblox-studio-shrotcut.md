@@ -30,6 +30,8 @@ categories: Roblox
 
 <span class="color-keyword">RMB Holding-Down</span> 카메라 회전
 
+<span class="color-keyword">F</span> Zoom to 선택한 파트
+
 
 
 
