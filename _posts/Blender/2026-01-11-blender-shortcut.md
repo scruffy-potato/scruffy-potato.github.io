@@ -12,6 +12,22 @@ categories: Blender
 
 
 
+# 📌 단축키 지정
+{: .notice}
+
+Edit → Preferneces... → Keymap 에서도 지정할 수 있지만,
+
+<span class="color-keyword">기능 RMB →</span>
+
+<span class="color-variable">Assign Shortcut...</span>
+
+<span class="color-variable">Change Shortcut...</span>
+
+<span class="color-variable">Remove Shortcut</span>
+
+
+
+
 # 📌 세이브 관리
 {: .notice}
 
