@@ -1,5 +1,5 @@
 ---
-title: "UV Editing-Extensions: Mio3 UV"
+title: "UV Editing Extensions: Mio3 UV"
 categories: Blender
 # excerpt: ""
 ---
@@ -42,3 +42,11 @@ Seam들을 UV Editor에서 파란 선으로 볼 수 있음
 <span class="color-keyword">Right</span>
 
 <span class="color-keyword">Orient World</span> 선택한 UV Island의 방향을 3D World의 Z축 방향을 기준으로 정렬하는 기능 <span class="color-comment">X, Y축도 선택할 수 있으나 디폴트 값인 Z축 사용</span>
+
+
+
+
+# 📌 Arrange
+{: .notice}
+
+<span class="color-keyword">Stack</span> 같은 형태의 UV Island, Face들을 서로 정확히 겹쳐서 하나의 UV 공간을 공유하게 만드는 기능

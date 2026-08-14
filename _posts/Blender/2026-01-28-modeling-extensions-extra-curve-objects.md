@@ -1,5 +1,5 @@
 ---
-title: "Modeling-Extensions: Extra Curve Objects"
+title: "Modeling Extensions: Extra Curve Objects"
 categories: Blender
 # excerpt: ""
 ---
