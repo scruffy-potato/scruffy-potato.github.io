@@ -1,5 +1,5 @@
 ---
-title: "UV Editing Extensions: Zen UV Checker"
+title: "UV Editing Add-ons: Zen UV Checker"
 categories: Blender
 # excerpt: ""
 ---

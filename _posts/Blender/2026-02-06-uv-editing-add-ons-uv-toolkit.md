@@ -1,5 +1,5 @@
 ---
-title: "UV Editing Extensions: UV Toolkit"
+title: "UV Editing Add-ons: UV Toolkit"
 categories: Blender
 # excerpt: ""
 ---

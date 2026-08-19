@@ -1,5 +1,5 @@
 ---
-title: "Modeling Extensions: EdgeFlow"
+title: "Modeling Add-ons: EdgeFlow"
 categories: Blender
 # excerpt: ""
 ---

@@ -1,5 +1,5 @@
 ---
-title: "UV Editing Extensions: Mio3 UV"
+title: "UV Editing Add-ons: Mio3 UV"
 categories: Blender
 # excerpt: ""
 ---

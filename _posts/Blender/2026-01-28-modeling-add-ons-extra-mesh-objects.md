@@ -1,5 +1,5 @@
 ---
-title: "Modeling Extensions: Extra Mesh Objects"
+title: "Modeling Add-ons: Extra Mesh Objects"
 categories: Blender
 # excerpt: ""
 ---

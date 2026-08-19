@@ -1,5 +1,5 @@
 ---
-title: "Rendering?"
+title: "Shading, Material?"
 categories: Blender
 # excerpt: ""
 ---
@@ -12,6 +12,11 @@ categories: Blender
 
 
 
-# 📌 Rendering
+# 📌 Shading
 {: .notice}
 
+
+
+
+# 📌 Material
+{: .notice}
