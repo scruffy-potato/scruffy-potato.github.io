@@ -1,6 +1,6 @@
 ---
 title: "로블록스 스튜디오 단축키"
-categories: Roblox
+categories: RobloxStudio
 # excerpt: ""
 ---
 

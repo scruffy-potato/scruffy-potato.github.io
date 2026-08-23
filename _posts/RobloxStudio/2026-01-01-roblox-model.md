@@ -1,6 +1,6 @@
 ---
 title: "로블록스 기본 아바타 모델.obj 추출"
-categories: Roblox
+categories: RobloxStudio
 # excerpt: ""
 ---
 
