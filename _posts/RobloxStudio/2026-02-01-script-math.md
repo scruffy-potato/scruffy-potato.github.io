@@ -1,5 +1,5 @@
 ---
-title: "Script: math"
+title: "로블록스 스튜디오 스크립트: math"
 categories: RobloxStudio
 # excerpt: ""
 ---
