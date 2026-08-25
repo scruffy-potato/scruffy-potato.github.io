@@ -15,7 +15,7 @@ categories: RobloxStudio
 <pre>
 Part
 └─ SurfaceGui
-   └─ TextLabel
+       └─ TextLabel
 </pre>
 
 <br>
