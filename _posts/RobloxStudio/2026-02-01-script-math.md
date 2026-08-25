@@ -10,21 +10,54 @@ categories: RobloxStudio
 # 📌 math
 {: .notice}
 
-```Luau
-math.round(1.5) -- Result : 2, Rounds the number to the nearest whole number
-math.floor(11.99) -- Result : 11, Returns the lowest whole number not less than the given value
-math.ceil(11.01) -- Result : 12, Returns the smallest integer greater than or equal to x
+<span class="color-keyword">math.round(number)</span> Rounds the number to the nearest whole number
 
-math.abs(-10) -- Result : 10, Returns the absolute value of the number
-math.sqrt(100) -- Result : 10, Returns the root of the number
-math.pow(2, 3) -- Result : 1024, Returns the first number to the power of the second
+<span class="color-comment">math.round(1.5) -- Result : 2</span>
 
-math.deg(1.5) -- Result : 180, Converts Radians to Degrees
-math.rad(360) -- Result : 3.141592653589793, Converts Degrees to Radians
+<span class="color-keyword">math.floor(number)</span> Returns the largest integer less than or equal to the given value
 
-math.max(3, 5, 1, 10) -- Result : 10, Returns the largest value
-math.min(3, 5, 1, 10) -- Result : 1, Returns the smallest value
+<span class="color-comment">math.floor(11.99) -- Result : 11</span>
 
-math.random(1, 10) -- Returns a random number between first and last
-math.randomseed(100) -- Sets the seed for the random number generator
-```
+<span class="color-keyword">math.ceil(number)</span> Returns the smallest integer greater than or equal to x
+
+<span class="color-comment">math.ceil(11.01) -- Result : 12</span>
+
+
+
+<span class="color-keyword">math.abs(number)</span> Returns the absolute value of the number
+
+<span class="color-comment">math.abs(-10) -- Result : 10</span>
+
+<span class="color-keyword">math.sqrt(number)</span> Returns the root of the number
+
+<span class="color-comment">math.sqrt(100) -- Result : 10</span>
+
+<span class="color-keyword">math.pow(number, exponent)</span> Returns the first number to the power of the second
+
+<span class="color-comment">math.pow(2, 10) -- Result : 1024</span>
+
+
+
+<span class="color-keyword">math.deg(number)</span> Converts Radians to Degrees
+
+<span class="color-comment">math.deg(math.pi) -- Result : 180</span>
+
+<span class="color-keyword">math.rad(number)</span> Converts Degrees to Radians
+
+<span class="color-comment">math.rad(180) -- Result : 3.141592653589793</span>
+
+
+
+<span class="color-keyword">math.max(number, ...)</span> Returns the largest value
+
+<span class="color-comment">math.max(3, 5, 1, 10) -- Result : 10</span>
+
+<span class="color-keyword">math.min(number, ...)</span> Returns the smallest value
+
+<span class="color-comment">math.min(3, 5, 1, 10) -- Result : 1</span>
+
+
+
+<span class="color-keyword">math.random(min, max)</span> Returns a random number between first and last
+
+<span class="color-keyword">math.randomseed(number)</span> Sets the seed for the random number generator
