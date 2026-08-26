@@ -148,6 +148,14 @@
 .color-interface {color: #B8D7A3 !important;} // 인터페이스 (enum, struct)
 .color-control {color: #C586C0 !important;} // 제어 (if, return)
 
+/* Roblox Studio Script Theme */
+
+.RSST-KEYWORD {color: #eb7973 !important;}
+.RSST-CLASS {color: #70a0ff !important;}
+.RSST-STRING {color: #8ee9b6 !important;}
+.RSST-FUNCTION {color: #fae4aa !important;}
+.RSST-VALUE {color: #f2ba2a !important; font-weight: bold !important;}
+
 /* custom list style */
 
 .ul-1::before {content: "• ";}
