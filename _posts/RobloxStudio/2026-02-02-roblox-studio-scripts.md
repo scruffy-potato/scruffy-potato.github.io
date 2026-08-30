@@ -375,3 +375,27 @@ Part.Changed:Connect(function(Property)
 	end
 end)
 ```
+
+
+
+
+# 📌 Attachment Instance
+{: .notice}
+
+Part안에 필요한 Transform을 따로 잡는 용도, Unity의 Empty GameObject와 비슷한 용도
+
+
+
+
+# 📌 ProximityPormpt
+{: .notice}
+
+오브젝트에 가까이 갔을 때 상호작용할 수 있게 해주는 Instance
+
+<span class="color-keyword">ActionText</span>
+
+<span class="color-keyword">HoldDuration</span>
+
+
+
+
