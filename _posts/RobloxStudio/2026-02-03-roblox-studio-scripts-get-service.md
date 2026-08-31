@@ -63,7 +63,59 @@ UserInputService.MouseBehavior = Enum.MouseBehavior.LockCenter -- 마우스를 �
 
 
 
-# 📌 
+# 📌 RemoteEvent: FireServer → OnServerEvent
+{: .notice}
+
+<pre>
+ReplicatedStorage
+└─ RemoteEvent
+
+ServerScriptService
+└─ Script -- OnServerEvent
+
+StarterGui
+└─ ScreenGui
+       ├─ LocalScript -- FireServer
+       └─ TextButton
+</pre>
+
+LocalScript (Client)
+```Lua
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local BuyPotion = ReplicatedStorage:WaitForChild("RemoteEvent")
+
+script.Parent.TextButton.MouseButton1Click:Connect(function()
+	BuyPotion:FireServer("Potion", 100) -- 서버에 필요한 기능을 요구
+end)
+```
+
+Script (Server)
+```Lua
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local BuyPotion = ReplicatedStorage:WaitForChild("RemoteEvent")
+
+BuyPotion.OnServerEvent:Connect(function(Player, ItemName, Price) -- 서버에서만 처리해야할 기능을 클라이언트에서 받아 처리
+	print(Player.Name)
+	print(ItemName)
+	print(Price)
+end)
+```
+
+
+
+# 📌 RemoteEvent: FireClient → OnClientEvent
+{: .notice}
+
+
+
+
+# 📌 RemoteEvent: FireAllClients → OnClientEvent
+{: .notice}
+
+
+
+
+# 📌 RemoteFunction
 {: .notice}
 
 ```Lua
