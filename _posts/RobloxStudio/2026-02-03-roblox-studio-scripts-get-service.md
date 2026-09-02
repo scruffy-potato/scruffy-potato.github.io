@@ -90,7 +90,7 @@ end)
 ```
 
 Script (Server)
-```Lua
+```ruby
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local BuyPotion = ReplicatedStorage:WaitForChild("RemoteEvent")
 
@@ -135,7 +135,7 @@ StarterPlayer
 </pre>
 
 LocalScript (Client)
-```Lua
+```luau
 local RaplicatedStorage = game:GetService("ReplicatedStorage")
 local RemoteFunction = RaplicatedStorage:WaitForChild("RemoteFunction")
 
@@ -150,7 +150,7 @@ end)
 ```
 
 Script (Server)
-```Lua
+```luau
 local RaplicatedStorage = game:GetService("ReplicatedStorage")
 local RemoteFunction = RaplicatedStorage:WaitForChild("RemoteFunction")
 
@@ -176,7 +176,7 @@ ServerScriptService
 └─ Script
 </pre>
 
-```Lua
+```lua
 local DataStoreService = game:GetService("DataStoreService")
 local DataStore = DataStoreService:GetDataStore("DataStore") -- "데이터 저장소 이름 지정"
 
