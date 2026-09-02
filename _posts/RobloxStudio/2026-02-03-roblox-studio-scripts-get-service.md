@@ -71,11 +71,11 @@ ReplicatedStorage
 └─ RemoteEvent
 
 ServerScriptService
-└─ Script -- OnServerEvent
+└─ Script -- Server
 
 StarterGui
 └─ ScreenGui
-       ├─ LocalScript -- FireServer
+       ├─ LocalScript -- Client
        └─ TextButton
 </pre>
 
@@ -115,9 +115,116 @@ end)
 
 
 
-# 📌 RemoteFunction
+# 📌 RemoteFunction: InvokeServer ↔ OnServerInvoke
 {: .notice}
 
-```Lua
+<pre>
+Workspace
+└─ Part
+       └─ ClickDetector
 
+ReplicatedStorage
+└─ RemoteFunction
+
+ServerScriptService
+└─ Script -- Server
+
+StarterPlayer
+└─ StarterPlayerScripts
+       └─ LocalScript -- Client
+</pre>
+
+LocalScript (Client)
+```Lua
+local RaplicatedStorage = game:GetService("ReplicatedStorage")
+local RemoteFunction = RaplicatedStorage:WaitForChild("RemoteFunction")
+
+local Part = game.Workspace:WaitForChild("Part")
+local ClickDetector = Part.ClickDetector
+
+ClickDetector.MouseClick:Connect(function(Player)
+	local Result = RemoteFunction:InvokeServer(50)
+	
+	print(Result)
+end)
+```
+
+Script (Server)
+```Lua
+local RaplicatedStorage = game:GetService("ReplicatedStorage")
+local RemoteFunction = RaplicatedStorage:WaitForChild("RemoteFunction")
+
+RemoteFunction.OnServerInvoke = function(Player, Number)
+	Number *= 2
+	
+	return Player.Name .. " - " .. tostring(Number)
+end
+```
+
+
+
+
+# 📌 DataStoreService
+{: .notice}
+
+File → Experience Settings → Security → Enable Studio Access to API Services = On → Save
+
+*Play Server & Clinets
+
+<pre>
+ServerScriptService
+└─ Script
+</pre>
+
+```Lua
+local DataStoreService = game:GetService("DataStoreService")
+local DataStore = DataStoreService:GetDataStore("DataStore") -- "데이터 저장소 이름 지정"
+
+local function SaveData(Player)
+	local Success, ErrorMessage = pcall(function() -- Protected Call, 오류 발생시 게임을 멈추지 않고 결과 반환(성공: true, nil 반환 / 실패: false, "오류 내용" 반환)
+		DataStore:SetAsync(Player.UserId .. "-Cash", Player.leaderstats.Cash.Value) -- SetAsync(key, value) Setter
+		
+		DataStore:UpdateAsync(Player.UserId .. "-Cash", function(OldValue) -- 기존 value를 가져와야 할 때 UpdateAsync 사용
+			return Player.leaderstats.Cash.Value -- 다음과 같이 사용: return Player.leaderstats.Cash.Value + OldValue
+		end)
+	end)
+
+	if not Success then
+		warn(ErrorMessage)
+	end	
+end
+
+game.Players.PlayerAdded:Connect(function(Player) -- 플레이어가 게임에 들어왔을 때 실행되는 이벤트
+	local Leaderstats = Instance.new("Folder")
+	Leaderstats.Name = "leaderstats"
+	Leaderstats.Parent = Player
+	
+	local Cash = Instance.new("IntValue")
+	Cash.Name = "Cash"
+	Cash.Parent = Leaderstats
+	
+	local CashData = nil
+	
+	local Success, ErrorMessage = pcall(function()
+		CashData = DataStore:GetAsync(Player.UserId .. "-Cash") -- GetAsync(key) Getter, return value
+	end)
+	
+	if Success then
+		if CashData ~= nil then
+			Cash.Value = CashData -- Player의 DataStore에 저장된 값이 있으면 로드
+		end
+	else
+		warn(ErrorMessage)
+	end
+end)
+
+game.Players.PlayerRemoving:Connect(function(Player) -- 플레이어가 게임에서 나갈 때 발생하는 이벤트
+	SaveData(Player)
+end)
+
+game:BindToClose(function() -- 게임 서버가 종료될 때 발생하는 이벤트
+	for i, Player in pairs(game.Players:GetChildren()) do
+		SaveData(Player)
+	end
+end)
 ```
