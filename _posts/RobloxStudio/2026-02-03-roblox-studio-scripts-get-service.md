@@ -135,7 +135,7 @@ StarterPlayer
 </pre>
 
 LocalScript (Client)
-```luau
+```Luau
 local RaplicatedStorage = game:GetService("ReplicatedStorage")
 local RemoteFunction = RaplicatedStorage:WaitForChild("RemoteFunction")
 
@@ -150,7 +150,7 @@ end)
 ```
 
 Script (Server)
-```luau
+```luaU
 local RaplicatedStorage = game:GetService("ReplicatedStorage")
 local RemoteFunction = RaplicatedStorage:WaitForChild("RemoteFunction")
 
