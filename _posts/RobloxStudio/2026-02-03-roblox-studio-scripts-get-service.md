@@ -12,7 +12,7 @@ categories: RobloxStudio
 
 어떤 값이 일정 시간 동안 부드럽게 변하도록 만들어주는 서비스
 
-```Lua
+```lua
 local TweenService = game:GetService("TweenService")
 
 local Part = script.Parent
@@ -43,7 +43,7 @@ Tween:Play()
 # 📌 UserInputService
 {: .notice}
 
-```Lua
+```lua
 local UserInputService = game:GetService("UserInputService")
 
 UserInputService.InputBegan:Connect(function(Input, GameProcessedEvent)
@@ -80,7 +80,7 @@ StarterGui
 </pre>
 
 LocalScript (Client)
-```Lua
+```lua
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local BuyPotion = ReplicatedStorage:WaitForChild("RemoteEvent")
 
@@ -90,7 +90,7 @@ end)
 ```
 
 Script (Server)
-```ruby
+```lua
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local BuyPotion = ReplicatedStorage:WaitForChild("RemoteEvent")
 
@@ -135,7 +135,7 @@ StarterPlayer
 </pre>
 
 LocalScript (Client)
-```Luau
+```lua
 local RaplicatedStorage = game:GetService("ReplicatedStorage")
 local RemoteFunction = RaplicatedStorage:WaitForChild("RemoteFunction")
 
@@ -150,7 +150,7 @@ end)
 ```
 
 Script (Server)
-```luaU
+```lua
 local RaplicatedStorage = game:GetService("ReplicatedStorage")
 local RemoteFunction = RaplicatedStorage:WaitForChild("RemoteFunction")
 
@@ -227,4 +227,36 @@ game:BindToClose(function() -- 게임 서버가 종료될 때 발생하는 이�
 		SaveData(Player)
 	end
 end)
+```
+
+
+
+
+# 📌 ContextActionService
+{: .notice}
+
+<pre>
+StarterPlayer
+└─ StarterPlayerScripts
+       └─ LocalScript
+</pre>
+
+```lua
+local ContextActionService = game:GetService("ContextActionService") -- 여러 플랫폼의 Input을 하나의 방식으로 쉽게 처리
+
+local function OnEPressed()
+	print("Pressed E")
+end
+
+ContextActionService:BindAction("Horn", OnEPressed, true, Enum.KeyCode.E) -- BindAction(액션 이름, 실행할 함수, 모바일 버튼 생성 여부, 입력)
+--ContextActionService:SetPosition("Horn", UDim2.new(0.5, 0, 0.8, 0)) -- 모바일에서의 버튼 위치 설정, *작동이 안됨
+Button = ContextActionService:GetButton("Horn") -- 대체 함수
+if Button then -- PC에선 Button이 nil로 뜨기때문에 조건 넣기
+	Button.Position = UDim2.new(0.2, 0, 0.5, 0)
+end
+ContextActionService:SetTitle("Horn", "E") -- 모바일에서의 버튼 글자 설정
+
+task.wait(10)
+
+ContextActionService:UnbindAction("Horn") -- 액션 해제(Input 버튼 제거)
 ```
