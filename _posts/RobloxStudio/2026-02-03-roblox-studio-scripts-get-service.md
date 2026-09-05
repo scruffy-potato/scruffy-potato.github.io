@@ -260,3 +260,111 @@ task.wait(10)
 
 ContextActionService:UnbindAction("Horn") -- 액션 해제(Input 버튼 제거)
 ```
+
+
+
+
+# 📌 MarketplaceService (Pass)
+{: .notice}
+
+File → Experience Settings → Security → Allow Third Party Sales = On → Save
+
+*Play Server & Clinets
+
+<pre>
+ServerScriptService
+└─ Script
+
+StarterGui
+└─ ScreenGui
+       └─ TextButton
+           └─ Local Script
+</pre>
+
+Script
+```lua
+local MarketplaceService = game:GetService("MarketplaceService")
+
+local GamepassID = 1965794766 -- create.roblox.com → Creations → 생성할 Experience 선택 → Monetization → Passes → Create pass (Item for sale = On) → Pass ID
+
+MarketplaceService.PromptGamePassPurchaseFinished:Connect(function(Player, ID, WasPurchased) -- 구매 과정이 끝났을 때 발생하는 이벤트(플레이어, Pass ID, 구매 확인 bool 값)
+	if WasPurchased and GamepassID == ID then
+		print("Get Reward")
+	end
+end)
+```
+
+Local Script
+```lua
+local MarketplaceService = game:GetService("MarketplaceService")
+local Player = game.Players.LocalPlayer
+
+local GamepassID = 1965794766 -- create.roblox.com → Creations → 생성할 Experience 선택 → Monetization → Passes → Create pass (Item for sale = On) → Pass ID
+
+local function PromptPurchase()
+	local HasPass = false
+	
+	local Success, ErrorMessage = pcall(function()
+		HasPass = MarketplaceService:UserOwnsGamePassAsync(Player.UserId, GamepassID) -- 플레이어가 게임패스를 소유하는지 확인 후 bool 값 반환
+	end)
+	
+	if not HasPass then
+		MarketplaceService:PromptGamePassPurchase(Player, GamepassID) -- 게임패스 구매창 띄우기
+	end
+end
+
+script.Parent.MouseButton1Click:Connect(function()
+	PromptPurchase()
+end)
+```
+
+
+
+
+# 📌 MarketplaceService (Product)
+{: .notice}
+
+<pre>
+ServerScriptService
+└─ Script
+
+StarterGui
+└─ ScreenGui
+       └─ TextButton
+           └─ Local Script
+</pre>
+
+Script
+```lua
+local MarketplaceService = game:GetService("MarketplaceService")
+
+--local ProductID = 012345678
+
+local function ProcessReceipt(ReceiptInfo)
+	
+	local Player = game.Players:GetPlayerByUserId(ReceiptInfo.PlayerId) -- PlayerID로 해당 플레이어를 찾음
+	
+	if not Player then
+		return Enum.ProductPurchaseDecision.NotProcessedYet -- Roblox에 구매 처리 미완료 알림
+	else
+		-- 보상 지급 코드 작성--
+		
+		return Enum.ProductPurchaseDecision.PurchaseGranted -- Roblox에 구매 처리가 완료됐다고 알림
+	end
+	
+end
+
+MarketplaceService.ProcessReceipt = ProcessReceipt -- MarketplaceService.ProcessReceipt에 만든 함수 연결
+```
+
+Local Script
+```lua
+local MarketplaceService = game:GetService("MarketplaceService")
+local Player = game.Players.LocalPlayer
+
+local ProductID = 012345678
+
+script.Parent.MouseButton1Click:Connect(function()
+	MarketplaceService:PromptProductPurchase(Player, ProductID) -- 구매창 띄우기
+end)
+```
