@@ -66,20 +66,21 @@ UserInputService.MouseBehavior = Enum.MouseBehavior.LockCenter -- 마우스를 �
 # 📌 RemoteEvent: FireServer → OnServerEvent
 {: .notice}
 
-<pre>
-ReplicatedStorage
-└─ RemoteEvent
+<span class="color-control">ReplicatedStorage</span> <br>
+└─<span class="color-string">RemoteEvent</span> <br>
+<br>
+<span class="color-control">ServerScriptService</span> <br>
+└─<span class="color-string">Script</span> -- Server <br>
+<br>
+<span class="color-control">StarterGui</span> <br>
+└─<span class="color-string">ScreenGui</span> <br>
+　 　├─<span class="color-function">LocalScript</span> -- Client <br>
+　 　└─<span class="color-function">TextButton</span>
 
-ServerScriptService
-└─ Script -- Server
+<br>
 
-StarterGui
-└─ ScreenGui
-       ├─ LocalScript -- Client
-       └─ TextButton
-</pre>
+<span class="color-function">LocalScript</span> (Client)
 
-LocalScript (Client)
 ```lua
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local BuyPotion = ReplicatedStorage:WaitForChild("RemoteEvent")
@@ -89,7 +90,10 @@ script.Parent.TextButton.MouseButton1Click:Connect(function()
 end)
 ```
 
-Script (Server)
+<br>
+
+<span class="color-string">Script</span>Script</span> (Server)
+
 ```lua
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local BuyPotion = ReplicatedStorage:WaitForChild("RemoteEvent")

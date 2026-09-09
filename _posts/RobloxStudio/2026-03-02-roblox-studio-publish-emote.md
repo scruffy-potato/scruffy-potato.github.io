@@ -1,5 +1,5 @@
 ---
-title: "Emote 만들기"
+title: "로블록스 스튜디오 UGC: Emote 만들기"
 categories: RobloxStudio
 # excerpt: ""
 ---
@@ -22,9 +22,9 @@ categories: RobloxStudio
 
 <span class="color-variable">→ Animation track에 부위별 Keyframe을 추가해 애니메이션 생성</span>
 
-<span class="color-variable">→ ... → Set Animation Priority 지정</span>
-
 <span class="color-variable">→ Looping이 필요한 애니메이션의 경우 Toggle looping animation 활성화</span>
+
+<span class="color-variable">→ ... → Set Animation Priority 지정</span>
 
 <span class="color-variable">→ ... → Save</span>
 
@@ -56,12 +56,12 @@ categories: RobloxStudio
 
 <span class="color-keyword">Animation Editor</span>
 
-<span class="color-variable">→ ... → Set Animation Priority = Action</span>
-
 <span class="color-variable">→ Animation Track을 Curve Editor로 전환</span>
+
+<span class="color-variable">→ ... → Set Animation Priority = Action</span>
 
 <span class="color-variable">→ ... → Publish to Roblox → Create Animation Object In Workspace = Emote</span>
 
-<span class="color-keyword">Workspace → Animation 우클릭(Animation Id가 잘 들어갔는지 확인) → Save / Export → Save to Roblox... → Content Type = Avatar Item, Asset Category = Emote → 게시</span> (80 로벅스)
+<span class="color-keyword">Workspace → Animation 우클릭(Animation Id가 잘 들어갔는지 확인 후) → Save / Export → Save to Roblox... → Content Type = Avatar Item, Asset Category = Emote → 게시</span> (80 로벅스)
 
 <span class="color-keyword">create.roblox.com → Creations → Avatar items → Animations → 게시한 Emote Animation으로 들어가 Configure 탭에서 Publish Item</span> (1500 로벅스)

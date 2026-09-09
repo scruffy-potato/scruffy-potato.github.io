@@ -12,11 +12,9 @@ categories: RobloxStudio
 
 <span class="color-keyword">Workspace 계층 구조</span>
 
-<pre>
-Part
-└─ SurfaceGui
-       └─ TextLabel
-</pre>
+<span class="color-control">Part</span> <br>
+└─<span class="color-string">SurfaceGui</span> <br>
+　 　└─<span class="color-function">TextLabel</span>
 
 <br>
 
