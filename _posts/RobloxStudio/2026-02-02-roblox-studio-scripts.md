@@ -403,12 +403,12 @@ Part안에 필요한 Transform을 따로 잡는 용도, Unity의 Empty GameObjec
 {: .notice}
 
 <span class="color-number">ServerScriptService</span>
-<span class="color-interfaced">├─Module Script</span>
-<span class="color-interfaced">└─ Script</span>
+├─<span class="color-interface">Module Script</span>
+└─<span class="color-interface">Script</span>
 
 <br>
 
-<span class="color-interfaced">Module Script</span>
+<span class="color-interface">Module Script</span>
 
 ```lua
 local module = {
@@ -432,7 +432,7 @@ end
 return module
 ```
 
-<span class="color-interfaced">Script</span>
+<span class="color-interface">Script</span>
 
 ```lua
 local MyModule = require(game.ServerScriptService.ModuleScript)
