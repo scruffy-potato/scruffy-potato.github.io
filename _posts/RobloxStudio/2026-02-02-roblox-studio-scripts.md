@@ -399,3 +399,39 @@ Part안에 필요한 Transform을 따로 잡는 용도, Unity의 Empty GameObjec
 
 
 
+# 📌 Module Script
+{: .notice}
+
+ServerScriptService <br>
+├─Module Script <br>
+└─Script <br>
+
+Module Script
+```lua
+local module = {
+	
+	["Apple"] = {
+		["Cost"] = 10,
+		["Health"] = 20,
+	},
+	
+	["Banana"] = {
+		["Cost"] = 5,
+		["Health"] = 10,
+	}
+	
+}
+
+module.AddFunction = function(Number1, Number2)
+	return Number1 + Number2
+end
+
+return module
+```
+
+Script
+```lua
+local MyModule = require(game.ServerScriptService.ModuleScript)
+
+print(MyModule.AddFunction(MyModule.Apple.Cost, MyModule.Banana.Cost))
+```
