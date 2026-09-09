@@ -92,7 +92,7 @@ end)
 
 <br>
 
-<span class="color-string">Script</span>Script</span> (Server)
+<span class="color-string">Script</span> (Server)
 
 ```lua
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
