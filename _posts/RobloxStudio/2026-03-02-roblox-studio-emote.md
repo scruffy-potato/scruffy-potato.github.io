@@ -38,26 +38,13 @@ categories: RobloxStudio
 # 📌 R15의 관절 구성
 {: .notice}
 
-LowerTorso : 최상위 관절로 아바타 자체의 Position, Rotation을 담당 <br>
-│ <br>
-├─ LeftUpperLeg <br>
-│  └─ LeftLowerLeg <br>
-│     └─ LeftFoot <br>
-│ <br>
-├─ RightUpperLeg <br>
-│  └─ RightLowerLeg <br>
-│     └─ RightFoot <br>
-│ <br>
-└─ UpperTorso <br>
-   ├─ Head <br>
-   │ <br>
-   ├─ LeftUpperArm <br>
-   │  └─ LeftLowerArm <br>
-   │     └─ LeftHand <br>
-   │ <br>
-   └─ RightUpperArm <br>
-      └─ RightLowerArm <br>
-         └─ RightHand <br>
+<span class="color-control">LowerTorso</span> 최상위 관절로 아바타 자체의 Position, Rotation을 담당 <br>
+├─<span class="color-string">LeftUpperLeg</span> ─ LeftLowerLeg ─ LeftFoot <br>
+├─<span class="color-string">RightUpperLeg</span> ─ RightLowerLeg ─ RightFoot <br>
+└─<span class="color-string">UpperTorso</span> <br>
+　 　├─<span class="color-function">Head</span> <br>
+　 　├─<span class="color-function">LeftUpperArm</span> ─ LeftLowerArm ─ LeftHand <br>
+　 　└─<span class="color-function">RightUpperArm</span> ─ RightLowerArm ─ RightHand <br>
 
 **얼굴 추가**
 
