@@ -1,5 +1,5 @@
 ---
-title: "로블록스 스튜디오 스크립트: "
+title: "로블록스 스튜디오 스크립트"
 categories: RobloxStudio
 # excerpt: ""
 ---
@@ -10,7 +10,7 @@ categories: RobloxStudio
 # 📌 PlayerAdded:Connect
 {: .notice}
 
-```Lua
+```lua
 local <Variable Name> = game.Workspace.<Instance Name>
 
 game.Players.PlayerAdded:Connect(function(Player)
@@ -28,7 +28,7 @@ end)
 # 📌 Table
 {: .notice}
 
-```Lua
+```lua
 local <Table Name> = {
 	game.Workspace.<Instance Name>,
 	game.Workspace.<Instance Name>,
@@ -46,7 +46,7 @@ table.remove(<Table Name>, <Index>) -- Index 번째 Value를 지우고 뒤의 �
 # 📌 Function
 {: .notice}
 
-```Lua
+```lua
 local function <Function Name>()
 	-- Fucntion Body--
 end
@@ -58,7 +58,7 @@ end
 # 📌 Local, Global
 {: .notice}
 
-```Lua
+```lua
 local <Variable Name> = <Value> -- local
 <Variable Name> = <Value> -- Global
 ```
@@ -69,7 +69,7 @@ local <Variable Name> = <Value> -- local
 # 📌 + String +
 {: .notice}
 
-```Lua
+```lua
 local <Variable Name_1> = <Value>
 local <Variable Name_2> = <Value>
 local <Variable Name_3> = game.StarterGui.<ScreenGui Instance Name>.<TextLabel Instance Name>
@@ -83,7 +83,7 @@ local <Variable Name_3> = game.StarterGui.<ScreenGui Instance Name>.<TextLabel I
 # 📌 for
 {: .notice}
 
-```Lua
+```lua
 for i = <Start Value>, <End Value>, <Step Value> do
     --For Body--
 end
@@ -95,7 +95,7 @@ end
 # 📌 for i, in pairs
 {: .notice}
 
-```Lua
+```lua
 local <Table Name with an s> = {
 	game.Workspace.<Instance Name>,
 	game.Workspace.<Instance Name>,
@@ -117,7 +117,7 @@ end
 # 📌 Repeat
 {: .notice}
 
-```Lua
+```lua
 repeat
 	-- Repeat Code --
 	task.wait(<Wait Time>)
@@ -130,7 +130,7 @@ until <Bool Value>
 # 📌 IsA, GetChildren
 {: .notice}
 
-```Lua
+```lua
 local <Table Name with an s> = game.Workspace.<Folder Name>
 
 for i, <Table Name> in pairs(<Table Name with an s>:GetChildren()) do
@@ -157,7 +157,7 @@ end
 
 <span class="color-keyword">Module Script</span> 데이터 스크립트로 다른 Script, LocalScript가 가져다 쓰는 코드 모듈
 
-```Lua
+```lua
 -- 다른 스크립트에서 이런식으로 사용
 local <Variable Name> = require(game.Workspace.ModuleScript)
 <Variable Name>.<Function Name>()
@@ -170,7 +170,7 @@ local <Variable Name> = require(game.Workspace.ModuleScript)
 # 📌 Sound
 {: .notice}
 
-```Lua
+```lua
 local <Variable Name> = game.<Sound Instance Name>
 
 <Variable Name>:Play()
@@ -183,7 +183,7 @@ local <Variable Name> = game.<Sound Instance Name>
 # 📌 Tool Equipped, Unequipped, Activated
 {: .notice}
 
-```Lua
+```lua
 local <Variable Name> = game.StarterPack.<Tool Instance Name>
 
 <Variable Name>.Equipped:Connect(function()
@@ -205,7 +205,7 @@ end)
 # 📌 Script에서 Instance 접근
 {: .notice}
 
-```Lua
+```lua
 game. -- Explorer 접근
 script. -- Explorer 내 해당 Script 기준으로 접근
 ```
@@ -216,7 +216,7 @@ script. -- Explorer 내 해당 Script 기준으로 접근
 # 📌 MouseButton1Click
 {: .notice}
 
-```Lua
+```lua
 local <Variable Name> = game.StarterGui.<ScreenGui Instance Name>.<TextButton Instance Name>
 
 <Variable Name>.MouseButton1Click:Connect(function()
@@ -230,7 +230,7 @@ end)
 # 📌 Leaderboard
 {: .notice}
 
-```Lua
+```lua
 game.Players.PlayerAdded:Connect(function(Player)
 	local LeaderStats = Instance.new("Folder", Player)
 	LeaderStats.Name = "leaderstats" -- leaderstats 대소문자에 주의
@@ -254,7 +254,7 @@ Part
        └─ Script
 </pre>
 
-```Lua
+```lua
 local ClickDetector = script.Parent
 
 ClickDetector.MouseClick:Connect(function(Player)
@@ -275,7 +275,7 @@ Portals
 └─ Protal_2
 </pre>
 
-```Lua
+```lua
 local Portals = script.Parent
 
 local Portal_1 = Portals.Portal_1
@@ -303,7 +303,7 @@ end)
 # 📌 투명해지면서 사라지는 발판 만들기
 {: .notice}
 
-```Lua
+```lua
 local Part = script.Parent
 
 local Debounce = false
@@ -341,7 +341,7 @@ end)
 # 📌 깜빡이는 발판 만들기
 {: .notice}
 
-```Lua
+```lua
 local Part = script.Parent
 
 local Debounce = false
@@ -366,7 +366,7 @@ task.spawn(ChangeColor, Enum.Material.Plastic, Enum.Material.Neon, 1)
 # 📌 속성 값이 바뀌었을 때 사용하는 함수 Changed
 {: .notice}
 
-```Lua
+```lua
 local Part = script.Parent
 
 Part.Changed:Connect(function(Property)
