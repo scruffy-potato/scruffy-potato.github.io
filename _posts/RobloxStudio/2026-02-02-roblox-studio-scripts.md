@@ -402,9 +402,11 @@ Part안에 필요한 Transform을 따로 잡는 용도, Unity의 Empty GameObjec
 # 📌 Module Script
 {: .notice}
 
-<span class="color-number">ServerScriptService</span> <br>
-├─<span class="color-interfaced">Module Script</span> <br>
-└─<span class="color-interfaced">Script</span> <br>
+<span class="color-number">ServerScriptService</span>
+
+├─<span class="color-interfaced">Module Script</span>
+
+└─<span class="color-interfaced">Script</span>
 
 <br>
 
