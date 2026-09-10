@@ -441,3 +441,72 @@ local MyModule = require(game.ServerScriptService.ModuleScript)
 
 print(MyModule.AddFunction(MyModule.Apple.Cost, MyModule.Banana.Cost))
 ```
+
+
+
+
+# 📌 CFrame
+{: .notice}
+
+Script
+```lua
+local Part = game.Workspace.Part
+
+Part.CFrame = CFrame.new(1, 2, 3)
+Part.CFrame = Part.CFrame + Vector3.new(1, 2, 3)
+Part.CFrame = CFrame.lookAt(Part.Position, game.Workspace.SpawnLocation.Position)
+Part.CFrame = CFrame.new(1, 2, 3) * CFrame.Angles(math.rad(90), 0, 0) -- 회전
+
+Part.CFrame = game.Workspace.Part0.CFrame:Lerp(game.Workspace.Part1.CFrame, 0.5) -- Part0과 Part1의 0.5 값을 구함
+
+Part.CFrame = Part.CFrame + (Part.CFrame.LookVector * 10) -- 현재 바라보는 방향으로 10만큼 이동
+```
+
+Local Script
+```lua
+local Camera = game.Workspace.CurrentCamera -- 현재 게임에서 사용 중인 플레이어 카메라를 가져옴
+local Player = game.Players.LocalPlayer
+local Character = Player.Character or Player.CharacterAdded:Wait()
+
+Camera.CameraType = Enum.CameraType.Scriptable -- 카메라를 스크립트로 직접 제어하도록 변경
+
+Camera.Changed:Connect(function(Property)
+	if Property == "CameraType" and Camera.CameraType ~= Enum.CameraType.Scriptable then 
+		Camera.CameraType = Enum.CameraType.Scriptable -- 카메라 타입이 어떠한 이유로 바뀌어도 강제로 Scriptable로 고정
+	end
+end)
+
+Camera.CFrame = CFrame.lookAt(Character.HumanoidRootPart.Position, game.Workspace.Part.Position)
+```
+
+
+
+
+# 📌 Raycast
+{: .notice}
+
+Script
+```lua
+local Part1 = game.Workspace.Part
+local Part2 = game.Workspace.EndPart
+
+local Origin = Part1.Position
+local Direction = Part2.Position - Part1.Position
+
+local RaycastParams = RaycastParams.new()
+RaycastParams.FilterType = Enum.RaycastFilterType.Exclude -- 다음에서 지정할 Part들을 Raycast 검사에서 제외시킴
+RaycastParams.FilterDescendantsInstances = {Part1, Part2} -- 검사에서 제외할 Part 지정
+
+while true do
+
+	local RaycastResult = workspace:Raycast(Origin, Direction, RaycastParams)
+
+	if RaycastResult then
+		print("Intersection" .. RaycastResult.Instance.Name)
+	else
+		print("No Intersection")
+	end
+
+	task.wait(0.1)
+end
+```

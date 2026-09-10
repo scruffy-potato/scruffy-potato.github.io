@@ -372,3 +372,54 @@ script.Parent.MouseButton1Click:Connect(function()
 	MarketplaceService:PromptProductPurchase(Player, ProductID) -- 구매창 띄우기
 end)
 ```
+
+
+
+
+# 📌 PathfindingService
+{: .notice}
+
+<span class="color-control">Workspace</span> <br>
+└─<span class="color-string">Model</span> <br>
+　 　└─<span class="color-function">Script</span>
+
+```lua
+local PathfindingService = game:GetService("PathfindingService")
+
+local NPC = script.Parent
+local Humanoid = NPC:WaitForChild("Humanoid")
+NPC.HumanoidRootPart.Anchored = false
+local StartPoint = NPC.HumanoidRootPart
+local EndPoint = game.Workspace.EndPart
+
+local Path = PathfindingService:CreatePath({
+	AgentRadius = 2,		-- Agent의 Radius 설정
+	AgentHeight = 5,		-- Agent의 Height 설정
+	AgentCanJump = false,	-- Agent가 Jump할 수 있는지 설정
+	AgentCanClimb = false	-- Agent가 Climb할 수 있는지 설정
+})
+Path:ComputeAsync(StartPoint.Position, EndPoint.Position) -- Path 계산을 비동기 방식으로 처리
+
+local Waypoints = Path:GetWaypoints()
+
+for i, v in pairs(Waypoints) do
+	local Part = Instance.new("Part", game.Workspace) -- 경로를 시각적으로 보여줄 Part
+	Part.Name = "Waypoint" .. i
+	Part.Position = v.Position + Vector3.new(0, 2, 0)
+	Part.Size = Vector3.new(0.3, 0.3, 0.3)
+	Part.Color = Color3.new(0, 1, 0)
+	Part.Material = Enum.Material.Neon
+	Part.Shape = Enum.PartType.Ball
+	Part.Anchored = true
+	Part.CanCollide = false
+	
+	if v.Action == Enum.PathWaypointAction.Jump then -- 점프하는 상황의 조건문이지만, AgentCanJump == false 일 경우 조건에서 탈락
+		Humanoid:ChangeState(Enum.HumanoidStateType.Jumping) -- 점프 상태로 변경
+	end
+	
+	Humanoid:MoveTo(v.Position) -- 목표 지점으로 이동
+	local Success = Humanoid.MoveToFinished:Wait() -- MoveTo가 끝날때 까지 기다리고 이동 결과를 반환
+	
+	print("이동 결과:", Success)
+end
+```
