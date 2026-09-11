@@ -423,3 +423,26 @@ for i, v in pairs(Waypoints) do
 	print("이동 결과:", Success)
 end
 ```
+
+
+
+
+# 📌 TeleportService
+{: .notice}
+
+<span class="color-control">Workspace</span> <br>
+└─<span class="color-string">Part</span> <br>
+　 　├─<span class="color-function">ProximityPrompt</span> <br>
+　 　└─<span class="color-function">Script</span>
+
+*Place들을 Publish to Roblox 후 실제 게임 내에서 테스트 필요
+
+```lua
+local TeleportService = game:GetService("TeleportService")
+local PlaceID = 127577925052251 -- Teleport할 Place의 ID, Asset MAnager → Places In Experience → Add New Place → 생성된 Place ID
+local ProximityPrompt = script.Parent.ProximityPrompt -- 플레이어가 특정 객체에 가까이 다가갔을 때 상호작용할 수 있도록 화면에 안내 UI를 표시해주는 객체
+
+ProximityPrompt.Triggered:Connect(function(Player)
+	TeleportService:TeleportAsync(PlaceID, {Player}) -- Place 이동
+end)
+```

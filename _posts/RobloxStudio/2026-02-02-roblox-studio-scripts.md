@@ -510,3 +510,30 @@ while true do
 	task.wait(0.1)
 end
 ```
+
+
+
+
+# 📌 os.time, os.clock
+{: .notice}
+
+Script
+```lua
+local Part1 = game.Workspace.Part
+local Part2 = game.Workspace.EndPart
+
+local StartTime = nil
+
+Part1.Touched:Connect(function(Hit)
+	if Hit.Parent:FindFirstChild("Humanoid") then
+		StartTime = os.clock() -- Part1에 닿는 순간의 시각을 기록해 스톱워치 시작
+		print(os.clock()) -- os.clock()의 경우 소수점까지 기록, os.time()의 경우 초단위까지만 기록
+	end
+end)
+
+Part2.Touched:Connect(function(Hit)
+	if Hit.Parent:FindFirstChild("Humanoid") then
+		print(os.clock() - StartTime) -- Part2에 닿는 순간 현재 시각에서 기록한 시간을 빼 기록 계산
+	end
+end)
+```
